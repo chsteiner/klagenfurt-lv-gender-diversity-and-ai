@@ -174,6 +174,17 @@ Dokumentation ist Teil des Repos (.md-Dateien) – keine separate schriftliche Z
   - Audit-Frameworks (HELM, DecodingTrust)
   - Das Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
 
+- **Vorläufige Befunde aus FAIR-SW-Bench**:
+  - Diversitäts-Instruktions-Paradox: Diversity-aware Prompts können Bias verstärken
+  - Utility-Safety-Trade-off: Bias-Reduktion vs. Antwortqualität
+  - Google Gemini: 100% Blockierung von Social-Work-Prompts
+  - EU AI Act: Sozialarbeit als Hochrisikoanwendung ab August 2026
+
+- **Context Engineering statt Prompt Engineering**:
+  - Kontext kuratieren statt Rollen-Prompts formulieren
+  - Empirische Evidenz gegen Persona-Prompting (Kim et al., ICLR 2025)
+  - Relevanz für das Tool-Design der Studierenden
+
 - **Human-in-the-Loop und AI Literacy**:
   - Kritische Bewertung von KI-Outputs
   - Entscheidungshoheit bei Fachkräften behalten
@@ -203,6 +214,15 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 - 5 Bias-Dimensionen: Stereotyping, Agency Attribution, Paternalistic Language, Cultural Assumptions, Problem Framing
 - Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
 
+**Vorläufige Befunde der Pilotstudie (2025):**
+
+- **Diversitäts-Instruktions-Paradox**: Diversity-aware Prompts produzierten in mehreren Fällen höhere Bias-Scores als neutrale Varianten, besonders bei Agency Attribution und Problem Framing. Mögliche Erklärung: Explizite Diversitätshinweise aktivieren latente Stereotype im Modell (Salienz-Effekt).
+- **Utility-Safety-Trade-off**: Bias-Reduktion geht möglicherweise auf Kosten der Antwortqualität. Diversity-aware Varianten zeigten niedrigere Bias-Scores (Ø 3.8) aber auch reduzierte Helpfulness-Werte (Ø 4.1) gegenüber Base-Varianten (Bias: 6.2, Helpfulness: 8.1).
+- **Google Gemini blockiert 100%** aller Social-Work-Prompts durch undokumentierte Safety-Filter, die sich nicht deaktivieren lassen.
+- **Methodische Einschränkung**: Pilotstudie mit 30/50 Prompts, nur ein Provider (Anthropic), englische Judge-Prompts für deutsche Outputs, keine Human-Annotation. Ergebnisse erfordern Validierung.
+
+Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgangspunkt für eigene Untersuchungen nutzen können.
+
 ---
 
 ## Kontakt und Organisation
@@ -219,7 +239,7 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 
 - [ ] Terminänderung an Noreen kommunizieren (26.03. kürzen, 11.05. neu)
 - [ ] Textauswahl für Diskussionen in Teil 1 finalisieren
-- [ ] FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten (ohne Code)
+- [x] ~~FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten~~ – in PROJECT.md integriert (Beispiel-Prompts, Befunde, Dimensionen)
 - [ ] Moodle-Kurs einrichten
 - [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: Ollama (lokale Modelle) + Free-Tier Web-Interfaces
 
@@ -232,6 +252,8 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 | März 2026 | Erste Version erstellt |
 | März 2026 | Termine aus Campus-System übernommen; EH 2 gekürzt (-2h), EH 4 als Q&A-Session neu eingefügt (+2h am 11.05.) |
 | März 2026 | Überarbeitung: Projektauftrag in EH 2, Gastbeitrag in EH 3 zum Projektstart, Peer-Feedback in EH 5, Meilensteine und Bewertungsgewichtung ergänzt, Minimalanforderungen definiert |
+| März 2026 | Feedbackrunde: Bewertung vereinfacht (50/30/20), Option B (Datensatz) entfernt, Ollama als Hauptempfehlung, Teams max. 3, schriftliche Zusammenfassung entfällt |
+| März 2026 | FAIR-SW-Bench Befunde integriert: Diversitäts-Instruktions-Paradox, Utility-Safety-Trade-off, Gemini-Blockierung, EU AI Act Kontext, Context Engineering, konkrete Beispiel-Prompts |
 
 ---
 
