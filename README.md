@@ -50,7 +50,7 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
 | **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Gruppenzusammensetzung mitteilen; Q&A zum Projekt |
-| **4** | Mo 11.05.2026 | 08:15–10:15 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit |
+| **4** | Mo 11.05.2026 | 08:15–09:45 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit |
 | **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten |
 | **6** | Mi 24.06.2026 | 10:00–16:45 | Präsenz | C.0.16 | Abschlusspräsentationen der Projekte |
 
