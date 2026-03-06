@@ -22,15 +22,15 @@
 
 Die LV gliedert sich in zwei inhaltliche Teile:
 
-### Teil 1: Gender- und Diversitätsgrundlagen (EH 1–3)
+### Teil 1: Gender- und Diversitätsgrundlagen (EH 1–2)
 *Verantwortlich: Susanne Sackl-Sharif*
 
-Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten das notwendige Grundlagenwissen, um später Bias in KI-Systemen erkennen und kritisch analysieren zu können. Besonderer Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen.
+Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten das notwendige Grundlagenwissen, um später Bias in KI-Systemen erkennen und kritisch analysieren zu können. Besonderer Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt und die Gruppenbildung angestoßen.
 
-### Teil 2: Gender, Diversität und KI (EH 4–6)
+### Teil 2: Gender, Diversität und KI (EH 3–6)
 *Verantwortlich: Susanne Sackl-Sharif mit Gastbeiträgen von Christian Steiner (DHCraft)*
 
-Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert den technischen Input zu KI-Typen und Bias-Manifestationen. Im Zentrum steht das Studierendenprojekt: Die eigenständige Entwicklung eines Bias-Benchmark-Tools für Large Language Models.
+Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert in EH 3 den technischen Input zu KI-Typen und Bias-Manifestationen – genau zum Projektstart. Im Zentrum steht das Studierendenprojekt: Die eigenständige Entwicklung eines Bias-Benchmark-Tools für Large Language Models.
 
 ---
 
@@ -41,15 +41,17 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
 | **1** | Di 17.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | LV-Einführung, Inputs zu Gender und Diversität, Reflexionsübung |
-| **2** | Do 26.03.2026 | 13:30–18:15 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte |
-| **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | Gender/Diversität und Technik; **Projektvorstellung, Gruppenbildung**; technisches Kickoff-Material (asynchron vorab) |
+| **2** | Do 26.03.2026 | 13:30–18:15 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen, Gruppenbildung anstoßen** |
+
+*Zwischen EH 2 und EH 3 (26.03.–27.04.): Gruppen finden sich selbstständig, Texte lesen*
 
 ### Teil 2: Gender und KI
 
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
-| **4** | Mo 11.05.2026 | 08:15–10:15 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Q&A zu Projektarbeit |
-| **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten; technische Vertiefung bei Bedarf |
+| **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Gruppenzusammensetzung mitteilen; Q&A zum Projekt |
+| **4** | Mo 11.05.2026 | 08:15–10:15 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit |
+| **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten |
 | **6** | Mi 24.06.2026 | 10:00–16:45 | Präsenz | C.0.16 | Abschlusspräsentationen der Projekte |
 
 ### Stundenübersicht
@@ -62,7 +64,7 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 
 ### Begründung der Einheitenplanung
 
-Die technische Einführung (Gastbeitrag) wurde in **EH 4 (11.05.)** vorgezogen, damit Studierende den Input bereits in der Hauptarbeitsphase ihres Projekts nutzen können. EH 5 (03.06.) dient dann als **Peer-Feedback-Session**, in der Gruppen ihren Zwischenstand präsentieren und gegenseitig Rückmeldung geben – drei Wochen vor der finalen Abschlusspräsentation.
+Der **Projektauftrag** wird bereits am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um Gruppen zu bilden und sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** – genau zum Projektstart, damit Studierende den Input direkt in ihre Arbeit einfließen lassen können. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
 
 ---
 
@@ -72,7 +74,8 @@ Die technische Einführung (Gastbeitrag) wurde in **EH 4 (11.05.)** vorgezogen, 
 
 | Zeitpunkt | Meilenstein | Abgabe |
 |-----------|-------------|--------|
-| Vor EH 4 (11.05.) | **Konzeptskizze**: Projektidee, gewählte Bias-Dimensionen, geplante LLMs, Teamzusammensetzung | 1-Seiter auf Moodle |
+| EH 3 (27.04.) | **Gruppenmitteilung**: Teamzusammensetzung bekanntgeben | In der Einheit |
+| Vor EH 4 (11.05.) | **Konzeptskizze**: Projektidee, gewählte Bias-Dimensionen, geplante LLMs | 1-Seiter auf Moodle |
 | Vor EH 5 (03.06.) | **Prototyp**: Erster lauffähiger Stand (auch minimal) | Kurze Demo vorbereiten |
 | EH 6 (24.06.) | **Abschlusspräsentation + Abgabe**: Fertiges Tool, Dokumentation, Präsentation | Projekt + schriftliche Zusammenfassung |
 
@@ -117,7 +120,7 @@ Damit die Projekte vergleichbar bleiben, gelten folgende Mindestanforderungen:
    - Intersektionalität
    - Definition von Bias
 
-2. **Technische Einführung** (Gastbeitrag Christian Steiner, EH 4):
+2. **Technische Einführung** (Gastbeitrag Christian Steiner, EH 3):
    - Überblick über KI-Typen: regelbasiert, prädiktiv, generativ
    - Wie sich Bias je nach KI-Typ manifestiert
    - Bias-Manifestation in Trainingsdaten vs. Output
@@ -190,7 +193,7 @@ Die **konzeptuelle Qualität** wird bewusst am stärksten gewichtet, um sicherzu
 
 | Methode | Einsatz | Einheit |
 |---------|---------|---------|
-| **Input/Vortrag** | Theoretische Grundlagen (Teil 1), Technische Einführung (Teil 2) | EH 1–4 |
+| **Input/Vortrag** | Theoretische Grundlagen (Teil 1), Technische Einführung (Teil 2) | EH 1–3 |
 | **Textdiskussion** | Ausgewählte Texte aus Gender Studies und Science & Technology Studies | EH 2 |
 | **Reflexionsübungen** | Individuelle und Gruppenreflexion zu Gender/Diversität | EH 1, 3 |
 | **Projektarbeit** | Selbstständige Entwicklung des Bias-Benchmark-Tools | EH 3–6 |
@@ -286,7 +289,7 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 |-------|----------|
 | März 2026 | Erste Version erstellt |
 | März 2026 | Termine aus Campus-System übernommen; EH 2 gekürzt (-2h), EH 4 als Q&A-Session neu eingefügt (+2h am 11.05.) |
-| März 2026 | Überarbeitung: Gastbeitrag nach EH 4 vorgezogen, Peer-Feedback in EH 5 verankert, Meilensteine und Bewertungsgewichtung ergänzt, Minimalanforderungen definiert |
+| März 2026 | Überarbeitung: Projektauftrag in EH 2, Gastbeitrag in EH 3 zum Projektstart, Peer-Feedback in EH 5, Meilensteine und Bewertungsgewichtung ergänzt, Minimalanforderungen definiert |
 
 ---
 
