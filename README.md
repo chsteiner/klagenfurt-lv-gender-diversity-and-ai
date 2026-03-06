@@ -25,12 +25,12 @@ Die LV gliedert sich in zwei inhaltliche Teile:
 ### Teil 1: Gender- und Diversitätsgrundlagen (EH 1–2)
 *Verantwortlich: Susanne Sackl-Sharif*
 
-Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten das notwendige Grundlagenwissen, um später Bias in KI-Systemen erkennen und kritisch analysieren zu können. Besonderer Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt und die Gruppenbildung angestoßen.
+Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten Grundlagenwissen zu Gender und Diversität, um später Bias in KI-Systemen erkennen und analysieren zu können. Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt und die Gruppenbildung angestoßen.
 
 ### Teil 2: Gender, Diversität und KI (EH 3–6)
 *Verantwortlich: Susanne Sackl-Sharif mit Gastbeiträgen von Christian Steiner (DHCraft)*
 
-Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert in EH 3 den technischen Input zu KI-Typen und Bias-Manifestationen – genau zum Projektstart. Im Zentrum steht das Studierendenprojekt: Die eigenständige Entwicklung eines Bias-Benchmark-Tools für Large Language Models.
+Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert in EH 3 den technischen Input zu KI-Typen und Bias-Manifestationen. Im Zentrum steht das Studierendenprojekt: Die eigenständige Entwicklung eines Bias-Benchmark-Tools für Large Language Models.
 
 ---
 
@@ -50,21 +50,21 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
 | **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Gruppenzusammensetzung mitteilen; Q&A zum Projekt |
-| **4** | Mo 11.05.2026 | 08:15–09:45 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit |
-| **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten |
+| **4** | Mo 11.05.2026 | 08:15–09:45 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
+| **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
 | **6** | Mi 24.06.2026 | 10:00–16:45 | Präsenz | C.0.16 | Abschlusspräsentationen der Projekte |
 
 ### Stundenübersicht
 
 | Format | Einheiten | Stunden |
 |--------|-----------|---------|
-| Präsenz | EH 1, 2, 6 | ~18h |
-| Online | EH 3, 4, 5 | ~9h |
-| **Gesamt** | | **~27h** |
+| Präsenz | EH 1 (5h), EH 2 (4,75h), EH 6 (6,75h) | ~16,5h |
+| Online | EH 3 (3,25h), EH 4 (1,5h), EH 5 (3,25h) | ~8h |
+| **Gesamt** | | **~24,5h** |
 
 ### Begründung der Einheitenplanung
 
-Der **Projektauftrag** wird bereits am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um Gruppen zu bilden und sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** – genau zum Projektstart, damit Studierende den Input direkt in ihre Arbeit einfließen lassen können. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
+Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um Gruppen zu bilden und sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** zum Projektstart. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
 
 ---
 
@@ -87,50 +87,15 @@ Zwischen den Einheiten steht ein **Moodle-Forum** für Fragen zur Projektarbeit 
 
 ## Projektauftrag: Bias-Benchmark-Tool
 
-### Konzept
+Die Studierenden entwickeln ein eigenes Tool zur Messung von Bias in LLM-generierten Antworten, inspiriert vom FAIR-SW-Bench Framework (Konzeptbeschreibung, nicht Code). Der vollständige Projektauftrag für die Studierenden steht in [PROJECT.md](PROJECT.md).
 
-Die Studierenden entwickeln ein eigenes Tool zur Messung von Bias in LLM-generierten Antworten. Als Inspiration dient die Konzeptbeschreibung des **FAIR-SW-Bench** Frameworks (entwickelt von DHCraft), jedoch ohne direkten Zugang zum Code. Die Studierenden sollen kreative eigene Lösungen finden.
-
-### Rahmenbedingungen
-
-| Aspekt | Vorgabe |
-|--------|---------|
-| **Arbeitsform** | Frei wählbar: Einzel- oder Gruppenarbeit |
-| **Technische Umsetzung** | Mit Hilfe von Coding Agents (empfohlen: Claude Code) |
-| **Scope** | Bewusst offen – Kreativität erwünscht |
-| **Programmiersprache** | Frei wählbar (Python empfohlen) |
-| **LLM-Zugang** | Mehrere kostenlose Optionen – siehe [PROJECT.md](PROJECT.md) |
-
-### Minimalanforderungen
-
-Damit die Projekte vergleichbar bleiben, gelten folgende Mindestanforderungen:
-
-1. **Mindestens 10 eigene Testszenarien/Prompts**, die potenzielle Bias-Situationen abbilden
-2. **Mindestens 2 Bias-Dimensionen**, die systematisch evaluiert werden
-3. **Mindestens 1 LLM**, das angefragt und ausgewertet wird (mehrere kostenlose Optionen verfügbar)
-4. **Dokumentierte Evaluierungsmethodik**: Wie wird Bias gemessen? (Metriken, Bewertungsskalen, Begründung)
-5. **Funktionierender Code** mit README
+**Kurzfassung:** 10+ eigene Prompts, 2+ Bias-Dimensionen, 1+ LLM, dokumentierte Methodik, funktionierender Code. Themenfeld, Ansatz und technische Umsetzung sind frei wählbar. LLM-Zugang kostenlos über Ollama (lokale Modelle) oder Free-Tier Web-Interfaces. Abgabe als GitHub-Repo. Teams max. 3 Personen.
 
 ### Was die Studierenden erhalten
 
-1. **Theoretische Grundlagen** (Teil 1 der LV):
-   - Gender- und Diversitätstheorien
-   - De/konstruktivistische Ansätze
-   - Intersektionalität
-   - Definition von Bias
-
-2. **Technische Einführung** (Gastbeitrag Christian Steiner, EH 3):
-   - Überblick über KI-Typen: regelbasiert, prädiktiv, generativ
-   - Wie sich Bias je nach KI-Typ manifestiert
-   - Bias-Manifestation in Trainingsdaten vs. Output
-   - Praktikable Ansätze zur Bias-Detektion (kontrastive Prompts, Output-Monitoring)
-   - Hinweis auf bekannte Einschränkungen (z.B. Gemini Safety-Filter)
-
-3. **Konzeptuelle Inspiration**:
-   - Beschreibung der FAIR-SW-Bench Architektur (ohne Code)
-   - Beispiel-Testszenarien als Inspiration für Prompt-Design
-   - Überblick über Bias-Dimensionen (Stereotyping, Agency Attribution, Paternalistic Language, Cultural Assumptions, Problem Framing)
-   - Das Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware) als methodisches Pattern
+1. **Theoretische Grundlagen** (Teil 1): Gender/Diversitätstheorien, Intersektionalität, Bias-Definition
+2. **Technische Einführung** (Gastbeitrag Christian Steiner, EH 3): KI-Typen, Bias-Manifestationen, Detektionsmethoden
+3. **Konzeptuelle Inspiration**: FAIR-SW-Bench Beschreibung, Bias-Dimensionen, Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
 
 ---
 
@@ -148,43 +113,21 @@ Nach Abschluss der Lehrveranstaltung sollten die Studierenden:
 
 ## Prüfungsmodalitäten
 
-### Prüfungsmethoden
+### Prüfungskomponenten und Beurteilung
 
-| Komponente | Beschreibung | Gewichtung |
-|------------|--------------|------------|
-| **Projektarbeit** | Design und Implementierung eines Bias-Detection-Tools | 40% |
-| **Abschlusspräsentation** | Vorstellung des Tools und der Ergebnisse (EH 6) | 20% |
-| **Schriftliche Zusammenfassung** | Dokumentation der Methodik und wichtigsten Erkenntnisse | 20% |
-| **Teilnahme** | Anwesenheit, aktive Beteiligung, Peer-Feedback | 20% |
+| Komponente | Gewichtung | Beurteilung nach |
+|------------|------------|------------------|
+| **Projektarbeit** (GitHub-Repo: Code + Dokumentation) | 50% | Theoriebezug, technische Umsetzung, Kreativität |
+| **Abschlusspräsentation** (EH 6, 10+5 Min.) | 30% | Klarheit, Nachvollziehbarkeit, Ergebnisdarstellung |
+| **Teilnahme** | 20% | Anwesenheit, aktive Beteiligung, Peer-Feedback |
 
-### Beurteilungskriterien
-
-| Kriterium | Beschreibung | Gewichtung |
-|-----------|--------------|------------|
-| **Konzeptuelle Qualität** | Theoretische Fundierung der Bias-Dimensionen und Testszenarien | 30% |
-| **Technische Umsetzung** | Funktionalität und Codequalität des Tools | 25% |
-| **Kreativität** | Originalität im Ansatz, Prompt-Design oder Evaluierungsmethodik | 20% |
-| **Präsentation und Dokumentation** | Klarheit der Abschlusspräsentation und schriftlichen Zusammenfassung | 15% |
-| **Partizipation** | Engagement während der Einheiten, Diskussionen und Peer-Feedback | 10% |
-
-Die **konzeptuelle Qualität** wird bewusst am stärksten gewichtet, um sicherzustellen, dass die theoretischen Grundlagen aus Teil 1 in die Projektarbeit einfließen – nicht nur technische Umsetzung zählt.
+Dokumentation ist Teil des Repos (.md-Dateien) – keine separate schriftliche Zusammenfassung nötig. Theoriebezug zählt mehr als Code-Komplexität. Details in [PROJECT.md](PROJECT.md).
 
 ---
 
 ## Voraussetzungen
 
 > Grundlegende Programmierkenntnisse in mindestens einer Sprache (idealerweise Python) sowie Bereitschaft zur Arbeit mit KI-gestützten Entwicklungstools (Coding Agents). Keine Vorkenntnisse in Machine Learning oder Gender Studies erforderlich.
-
-### Konkret benötigte Kompetenzen
-
-| Kompetenz | Notwendig? | Begründung |
-|-----------|------------|------------|
-| Grundlegende Programmierung | Ja | Code verstehen und anpassen |
-| Python | Empfohlen | Standardsprache für ML/API-Arbeit |
-| JSON-Verständnis | Ja | Prompt-Datensätze, API-Responses |
-| API-Erfahrung | Hilfreich | LLM-Anbindung |
-| Machine Learning | Nein | Wird nicht selbst trainiert, nur genutzt |
-| Gender Studies | Nein | Wird in Teil 1 vermittelt |
 
 ---
 
@@ -278,7 +221,7 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 - [ ] Textauswahl für Diskussionen in Teil 1 finalisieren
 - [ ] FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten (ohne Code)
 - [ ] Moodle-Kurs einrichten
-- [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: mehrere kostenlose Optionen dokumentiert (siehe [PROJECT.md](PROJECT.md))
+- [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: Ollama (lokale Modelle) + Free-Tier Web-Interfaces
 
 ---
 

@@ -11,16 +11,15 @@
 **Konkret:** Ihr entwickelt eigene Testszenarien (Prompts), schickt sie an ein LLM und analysiert systematisch, ob die Antworten verzerrt, stereotyp oder diskriminierend sind. Dafür nutzt ihr die Gender- und Diversitätstheorie aus Teil 1 der LV und wendet sie praktisch an.
 
 **Was ihr abgebt:**
-- Funktionierender Code (mit README)
+- GitHub-Repository mit funktionierendem Code und Dokumentation (.md)
 - Mindestens 10 eigene Prompts, 2 Bias-Dimensionen, 1 LLM
-- Dokumentation eurer Methodik
-- Abschlusspräsentation am 24.06.
+- Abschlusspräsentation am 24.06. (10 Min. + 5 Min. Diskussion)
 
 **Was wir nicht vorgeben:** Welches Themenfeld, welche Bias-Dimensionen, welchen technischen Ansatz – das entscheidet ihr. Kreativität ist ausdrücklich erwünscht.
 
-**LLM-Zugang:** Kostenlos – über lokale Open-Source-Modelle (Ollama), einen von uns bereitgestellten Datensatz oder Free-Tier Web-Interfaces. Details unten.
+**LLM-Zugang:** Kostenlos über lokale Open-Source-Modelle mit [Ollama](https://ollama.com/). Alternativ Free-Tier Web-Interfaces. Details unten.
 
-**Bewertung:** Konzeptuelle Qualität (30%) zählt mehr als technische Umsetzung (25%). Theoriebezug schlägt Code-Komplexität.
+**Bewertung:** Theoriebezug zählt mehr als Code-Komplexität.
 
 ---
 
@@ -32,7 +31,7 @@
 
 Ihr habt in Teil 1 der LV gelernt, wie Gender- und Diversitätsperspektiven unsere Wahrnehmung und Technologien prägen. Jetzt wendet ihr dieses Wissen an: Untersucht systematisch, ob und wie KI-Systeme – insbesondere Large Language Models – verzerrte, stereotype oder diskriminierende Ergebnisse produzieren.
 
-Euer Ziel: Ein eigenes **Bias-Benchmark-Tool** entwickeln, das diese Verzerrungen sichtbar und messbar macht.
+Euer Ziel: Ein eigenes **Bias-Benchmark-Tool** entwickeln, das diese Verzerrungen messbar macht.
 
 ---
 
@@ -42,7 +41,7 @@ Euer Ziel: Ein eigenes **Bias-Benchmark-Tool** entwickeln, das diese Verzerrunge
 
 1. **Mindestens 10 eigene Testszenarien/Prompts**, die potenzielle Bias-Situationen abbilden
 2. **Mindestens 2 Bias-Dimensionen**, die ihr systematisch evaluiert
-3. **Mindestens 1 KI-System**, das ihr befragt und auswertet
+3. **Mindestens 1 LLM**, das ihr befragt und auswertet
 4. **Dokumentierte Methodik**: Wie messt ihr Bias? Warum so und nicht anders?
 5. **Funktionierender Code** mit README
 
@@ -127,28 +126,18 @@ Wählt mindestens zwei, die zu eurem Thema passen. Wenn ihr eine Dimension seht,
 
 ---
 
-## LLM-Zugang: Kostenlose Optionen
+## LLM-Zugang
 
-Kommerzielle APIs kosten Geld. Deshalb arbeiten wir mit kostenlosen Alternativen. Ihr könnt diese kombinieren.
+### Ollama: Lokale Modelle (empfohlen)
 
-### Option A: Lokale Modelle mit Ollama (empfohlen)
-
-Open-Source-LLMs lokal laufen lassen – kostenlos, unbegrenzt, reproduzierbar.
+Open-Source-LLMs lokal laufen lassen – kostenlos, unbegrenzt, reproduzierbar. Euer Code funktioniert mit minimalen Änderungen auch für kommerzielle APIs (OpenAI, Anthropic, Mistral), falls ihr später mit Frontier-Modellen arbeiten wollt.
 
 **Setup:**
 1. [Ollama](https://ollama.com/) installieren
 2. Modell herunterladen: `ollama pull llama3` oder `ollama pull mistral`
 3. API lokal verfügbar unter `http://localhost:11434`
 
-**Modelle (Auswahl):**
-
-| Modell | Größe | Beschreibung |
-|--------|-------|-------------|
-| `llama3` | ~4.7 GB | Meta Llama 3 8B – guter Allrounder |
-| `mistral` | ~4.1 GB | Mistral 7B – europäisches Modell |
-| `gemma2` | ~5.4 GB | Google Gemma 2 9B |
-| `phi3` | ~2.2 GB | Microsoft Phi-3 Mini – läuft auch auf schwacher Hardware |
-| `qwen2.5` | ~4.7 GB | Alibaba Qwen 2.5 – interessant für kulturelle Bias-Analyse |
+**Modelle:** `llama3` (~4.7 GB, guter Allrounder), `mistral` (~4.1 GB), `phi3` (~2.2 GB, auch auf schwacher Hardware). Weitere Modelle auf [ollama.com/library](https://ollama.com/library).
 
 **Python-Beispiel:**
 ```python
@@ -166,55 +155,9 @@ base = query_ollama("Eine alleinerziehende Mutter sucht Hilfe bei der Erziehung.
 neutral = query_ollama("Eine alleinerziehende Person sucht Hilfe bei der Erziehung.")
 ```
 
-### Option B: Vorbereiteter Response-Datensatz
+### Alternativ: Free-Tier Web-Interfaces
 
-Wir stellen euch einen kuratierten Datensatz bereit: echte LLM-Responses auf Bias-relevante Prompts im JSON-Format. Ihr baut die Evaluierungslogik, wir liefern die Daten.
-
-**Datensatz-Struktur:**
-```json
-{
-  "prompt_id": "SWPUB001",
-  "prompt_text": "Eine alleinerziehende Mutter mit Migrationshintergrund ...",
-  "variant": "base",
-  "language": "de",
-  "responses": [
-    {
-      "provider": "openai",
-      "model": "gpt-5",
-      "response": "..."
-    },
-    {
-      "provider": "anthropic",
-      "model": "claude-3.5-sonnet",
-      "response": "..."
-    }
-  ]
-}
-```
-
-### Option C: Free-Tier Web-Interfaces
-
-Prompts manuell in kostenlose Chat-Interfaces eingeben und Responses sammeln.
-
-- [ChatGPT](https://chat.openai.com/) – Free-Tier
-- [Claude](https://claude.ai/) – Free-Tier
-- [Mistral Le Chat](https://chat.mistral.ai/) – kostenlos
-- [HuggingChat](https://huggingface.co/chat/) – Open-Source-Modelle
-
-Realistisch für 10–30 Prompts. Sammelt die Ergebnisse strukturiert (CSV oder JSON).
-
-### Option D: Prompt-Analyse (ohne LLM-Output)
-
-Analysiert eure Prompts selbst: Welche Formulierungen provozieren Bias? Entwickelt ein Scoring-System für Prompt-Qualität. Lässt sich gut mit anderen Optionen kombinieren.
-
-### Empfohlene Kombinationen
-
-| Profil | Empfehlung |
-|--------|------------|
-| **Technisch stark, gute Hardware** | Ollama + LLM-as-Judge |
-| **Technisch stark, schwache Hardware** | Datensatz + eigene Evaluierungslogik |
-| **Methodisch stark, weniger technisch** | Web-Interfaces + Prompt-Analyse |
-| **Schneller Einstieg** | Datensatz als Basis, später Ollama ergänzen |
+Falls Ollama nicht läuft, könnt ihr Prompts manuell in kostenlose Chat-Interfaces eingeben und Responses sammeln: [ChatGPT](https://chat.openai.com/), [Claude](https://claude.ai/), [Mistral Le Chat](https://chat.mistral.ai/), [HuggingChat](https://huggingface.co/chat/). Realistisch für 10–30 Prompts. Ergebnisse strukturiert sammeln (CSV oder JSON).
 
 ---
 
@@ -222,10 +165,10 @@ Analysiert eure Prompts selbst: Welche Formulierungen provozieren Bias? Entwicke
 
 | Aspekt | Vorgabe |
 |--------|---------|
-| **Gruppenarbeit** | Frei wählbar: Einzel oder Gruppe. Gruppen bis EH 3 (27.04.) bilden. |
+| **Gruppenarbeit** | Frei wählbar: Einzel oder Gruppe (max. 3 Personen). Gruppenbildung zwischen EH 2 und EH 3, Mitteilung in EH 3. |
 | **Coding Agents** | Empfohlen: Claude Code. Ihr dürft und sollt KI-Tools zum Programmieren nutzen. |
 | **Programmiersprache** | Frei wählbar. Python empfohlen wegen einfacher API-Anbindung. |
-| **Versionskontrolle** | Git/GitHub empfohlen – erleichtert die Zusammenarbeit und die Abgabe. |
+| **Abgabe** | GitHub-Repository mit Code und Dokumentation (.md-Dateien). |
 
 ---
 
@@ -233,24 +176,22 @@ Analysiert eure Prompts selbst: Welche Formulierungen provozieren Bias? Entwicke
 
 | Zeitpunkt | Was | Abgabe |
 |-----------|-----|--------|
-| **Bis EH 3 (27.04.)** | Gruppe bilden, Thema überlegen | Gruppenzusammensetzung in der Einheit mitteilen |
+| **EH 3 (27.04.)** | Gruppenzusammensetzung mitteilen, Thema vorstellen | In der Einheit |
 | **Vor EH 4 (11.05.)** | **Konzeptskizze**: Welches Thema? Welche Bias-Dimensionen? Welcher technische Ansatz? | 1-Seiter auf Moodle |
 | **Vor EH 5 (03.06.)** | **Prototyp**: Erster lauffähiger Stand, auch wenn noch nicht fertig | Kurze Demo vorbereiten |
-| **EH 6 (24.06.)** | **Abschlusspräsentation**: Fertiges Tool vorstellen | Präsentation + Code + Dokumentation |
+| **EH 6 (24.06.)** | **Abschlusspräsentation** (10 Min. + 5 Min. Diskussion) | GitHub-Repo (Code + Dokumentation) |
 
 ---
 
 ## Beurteilung
 
-| Kriterium | Gewichtung | Was zählt |
-|-----------|------------|-----------|
-| **Konzeptuelle Qualität** | 30% | Theoretische Fundierung – Warum diese Dimensionen? Warum diese Prompts? Bezug zur Theorie aus Teil 1 |
-| **Technische Umsetzung** | 25% | Funktioniert der Code? Ist er nachvollziehbar? |
-| **Kreativität** | 20% | Originelle Ansätze – im Prompt-Design, in der Methodik, im Themenfeld |
-| **Präsentation und Dokumentation** | 15% | Klare Präsentation, nachvollziehbare Dokumentation |
-| **Partizipation** | 10% | Engagement in Einheiten, Diskussionen, Peer-Feedback |
+Was zählt (in absteigender Priorität):
 
-Konzeptuelle Qualität zählt am stärksten. Ein einfaches Tool mit starker theoretischer Begründung wird besser bewertet als ein technisch aufwändiges Tool ohne Theoriebezug.
+1. **Theoriebezug** – Warum diese Bias-Dimensionen? Warum diese Prompts? Bezug zur Gender/Diversity-Theorie aus Teil 1
+2. **Technische Umsetzung** – Funktioniert der Code? Ist er nachvollziehbar?
+3. **Kreativität** – Originelle Ansätze im Prompt-Design, in der Methodik oder im Themenfeld
+4. **Dokumentation und Präsentation** – Nachvollziehbare Doku im Repo, klare Abschlusspräsentation
+5. **Partizipation** – Engagement in Einheiten, Diskussionen, Peer-Feedback
 
 ---
 
