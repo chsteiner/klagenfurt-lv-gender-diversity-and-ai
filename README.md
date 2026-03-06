@@ -99,8 +99,7 @@ Die Studierenden entwickeln ein eigenes Tool zur Messung von Bias in LLM-generie
 | **Technische Umsetzung** | Mit Hilfe von Coding Agents (empfohlen: Claude Code) |
 | **Scope** | Bewusst offen – Kreativität erwünscht |
 | **Programmiersprache** | Frei wählbar (Python empfohlen) |
-| **Zu evaluierende LLMs** | Frei wählbar (z.B. OpenAI, Anthropic, Mistral) |
-| **API-Zugang** | Studierende nutzen eigene API-Keys; Kostenrahmen wird in EH 4 besprochen |
+| **LLM-Zugang** | Mehrere kostenlose Optionen – siehe [PROJECT.md](PROJECT.md) |
 
 ### Minimalanforderungen
 
@@ -108,7 +107,7 @@ Damit die Projekte vergleichbar bleiben, gelten folgende Mindestanforderungen:
 
 1. **Mindestens 10 eigene Testszenarien/Prompts**, die potenzielle Bias-Situationen abbilden
 2. **Mindestens 2 Bias-Dimensionen**, die systematisch evaluiert werden
-3. **Mindestens 1 LLM**, das über API angefragt und ausgewertet wird
+3. **Mindestens 1 LLM**, das angefragt und ausgewertet wird (mehrere kostenlose Optionen verfügbar)
 4. **Dokumentierte Evaluierungsmethodik**: Wie wird Bias gemessen? (Metriken, Bewertungsskalen, Begründung)
 5. **Funktionierender Code** mit README
 
@@ -279,7 +278,7 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 - [ ] Textauswahl für Diskussionen in Teil 1 finalisieren
 - [ ] FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten (ohne Code)
 - [ ] Moodle-Kurs einrichten
-- [ ] API-Kosten und -Zugang für Studierende klären
+- [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: mehrere kostenlose Optionen dokumentiert (siehe [PROJECT.md](PROJECT.md))
 
 ---
 
