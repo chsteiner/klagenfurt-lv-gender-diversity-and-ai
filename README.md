@@ -10,11 +10,11 @@
 |------|---------|
 | **Titel** | Gender, Diversität und Künstliche Intelligenz |
 | **ECTS** | 4 (entspricht 100 Arbeitsstunden) |
-| **Kontaktzeit** | ~27 Stunden (6 Einheiten: 3x Präsenz, 3x Online) |
-| **Selbststudium** | ~73 Stunden |
+| **Kontaktzeit** | ~24,75 Stunden (6 Einheiten: 3x Präsenz, 3x Online) |
+| **Selbststudium** | ~75,25 Stunden |
 | **Lehrende** | Susanne Sackl-Sharif (Hauptlehrende), Christian Steiner (Gastbeiträge KI & Bias) |
 | **Zielgruppe** | Master-Studierende Informatik |
-| **Sprache** | Deutsch (Materialien teilweise Englisch) |
+| **Sprache** | Englisch |
 
 ---
 
@@ -41,9 +41,9 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
 | **1** | Di 17.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | LV-Einführung, Inputs zu Gender und Diversität, Reflexionsübung |
-| **2** | Do 26.03.2026 | 13:30–18:15 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen, Gruppenbildung anstoßen** |
+| **2** | Do 26.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen, Gruppenbildung anstoßen** |
 
-*Zwischen EH 2 und EH 3 (26.03.–27.04.): Gruppen finden sich selbstständig, Texte lesen*
+*Zwischen EH 2 und EH 3 (26.03.–27.04.): Gruppen finden sich selbstständig, Texte lesen, Task 1 (Literaturübersicht bis 22.04.)*
 
 ### Teil 2: Gender und KI
 
@@ -58,9 +58,9 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 
 | Format | Einheiten | Stunden |
 |--------|-----------|---------|
-| Präsenz | EH 1 (5h), EH 2 (4,75h), EH 6 (6,75h) | ~16,5h |
+| Präsenz | EH 1 (5h), EH 2 (5h), EH 6 (6,75h) | ~16,75h |
 | Online | EH 3 (3,25h), EH 4 (1,5h), EH 5 (3,25h) | ~8h |
-| **Gesamt** | | **~24,5h** |
+| **Gesamt** | | **~24,75h** |
 
 ### Begründung der Einheitenplanung
 
@@ -74,10 +74,11 @@ Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Stu
 
 | Zeitpunkt | Meilenstein | Abgabe |
 |-----------|-------------|--------|
+| 22.04. | **Task 1: Literaturübersicht**: Thema, 2-3 Quellen, 1 Seite | .md auf Moodle |
 | EH 3 (27.04.) | **Gruppenmitteilung**: Teamzusammensetzung bekanntgeben | In der Einheit |
-| Vor EH 4 (11.05.) | **Konzeptskizze**: Projektidee, gewählte Bias-Dimensionen, geplante LLMs | 1-Seiter auf Moodle |
+| 06.05. | **Task 2: Konzept (Promptotyping Docs)**: knowledge.md, requirements.md, design.md, journal.md | Gezippte .md auf Moodle |
 | Vor EH 5 (03.06.) | **Prototyp**: Erster lauffähiger Stand (auch minimal) | Kurze Demo vorbereiten |
-| EH 6 (24.06.) | **Abschlusspräsentation + Abgabe**: Fertiges Tool, Dokumentation, Präsentation | Projekt + schriftliche Zusammenfassung |
+| EH 6 (24.06.) | **Abschlusspräsentation + Abgabe**: Fertiges Tool, finale Promptotyping Docs | GitHub-Repo (Code + Promptotyping Docs) |
 
 ### Asynchrone Betreuung
 
@@ -117,11 +118,11 @@ Nach Abschluss der Lehrveranstaltung sollten die Studierenden:
 
 | Komponente | Gewichtung | Beurteilung nach |
 |------------|------------|------------------|
-| **Projektarbeit** (GitHub-Repo: Code + Dokumentation) | 50% | Theoriebezug, technische Umsetzung, Kreativität |
-| **Abschlusspräsentation** (EH 6, 10+5 Min.) | 30% | Klarheit, Nachvollziehbarkeit, Ergebnisdarstellung |
-| **Teilnahme** | 20% | Anwesenheit, aktive Beteiligung, Peer-Feedback |
+| **Projektarbeit** (GitHub-Repo: Code + Präsentation, Tasks 1-3) | 50% | Theoriebezug, technische Umsetzung, Kreativität |
+| **Promptotyping-Dokumentation** im GitHub-Repo (Task 4) | 30% | Vollständigkeit, Regenerierbarkeit, Reflexion |
+| **Teilnahme** | 20% | Anwesenheit (min. 80%), aktive Beteiligung, Peer-Feedback |
 
-Dokumentation ist Teil des Repos (.md-Dateien) – keine separate schriftliche Zusammenfassung nötig. Theoriebezug zählt mehr als Code-Komplexität. Details in [PROJECT.md](PROJECT.md).
+Statt schriftlicher Reflexion: Finale Promptotyping Docs im GitHub-Repo dienen als Dokumentation UND LLM-Wissensspeicher. Kernprinzip: **Das Artefakt muss aus den Docs regenerierbar sein.** Theoriebezug zählt mehr als Code-Komplexität. Details in [PROJECT.md](PROJECT.md).
 
 ---
 
@@ -237,11 +238,14 @@ Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgang
 
 ## Offene Punkte
 
-- [ ] Terminänderung an Noreen kommunizieren (26.03. kürzen, 11.05. neu)
+- [ ] Terminänderung an Noreen kommunizieren (11.05. als neuer Termin EH 4)
 - [ ] Textauswahl für Diskussionen in Teil 1 finalisieren
 - [x] ~~FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten~~ – in PROJECT.md integriert (Beispiel-Prompts, Befunde, Dimensionen)
 - [ ] Moodle-Kurs einrichten
 - [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: Ollama (lokale Modelle) + Free-Tier Web-Interfaces
+- [x] ~~Syllabus mit aktuellen Änderungen abgleichen~~ – SYLLABUS.md erstellt, Promptotyping-Workflow integriert
+- [ ] GitHub Pages für Docsify-Website aktivieren
+- [ ] Docsify-Website committen und pushen
 
 ---
 
@@ -254,6 +258,7 @@ Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgang
 | März 2026 | Überarbeitung: Projektauftrag in EH 2, Gastbeitrag in EH 3 zum Projektstart, Peer-Feedback in EH 5, Meilensteine und Bewertungsgewichtung ergänzt, Minimalanforderungen definiert |
 | März 2026 | Feedbackrunde: Bewertung vereinfacht (50/30/20), Option B (Datensatz) entfernt, Ollama als Hauptempfehlung, Teams max. 3, schriftliche Zusammenfassung entfällt |
 | März 2026 | FAIR-SW-Bench Befunde integriert: Diversitäts-Instruktions-Paradox, Utility-Safety-Trade-off, Gemini-Blockierung, EU AI Act Kontext, Context Engineering, konkrete Beispiel-Prompts |
+| März 2026 | Syllabus-Abgleich: EH 2 auf 18:30 korrigiert, Task 1 (Literatur bis 22.04.) eingefügt, Konzept-Deadline auf 06.05., Promptotyping-Workflow als Konzept+Doku-Format, Sprache auf Englisch, Bewertung 50/30/20 (Projekt/Promptotyping-Docs/Teilnahme) |
 
 ---
 

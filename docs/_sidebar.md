@@ -1,0 +1,6 @@
+- [Home](/)
+- [Project Brief](projektauftrag.md)
+- [Timeline & Milestones](zeitplan.md)
+- [Theory Overview](theorie.md)
+- [FAIR-SW-Bench](fair-sw-bench.md)
+- [Resources & Tools](ressourcen.md)
