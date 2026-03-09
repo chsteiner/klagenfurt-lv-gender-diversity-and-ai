@@ -1,7 +1,7 @@
 **650.097 (26S) – Gender, Diversity & AI**
 
 Main lecturer: Dr. Susanne Sackl-Sharif ([susanne.sackl-sharif@aau.at](mailto:susanne.sackl-sharif@aau.at) | [www.sackl-sharif.net](http://www.sackl-sharif.net))
-Guest contributions by Christian Steiner ([Christian.steiner@dhcraft.org](mailto:Christian.steiner@dhcraft.org) | [https://dhcraft.org](https://dhcraft.org/))
+Guest contributions by Christian Steiner ([christian.steiner@dhcraft.org](mailto:Christian.steiner@dhcraft.org) | [https://dhcraft.org](https://dhcraft.org/))
 
 
 | Dates | Content and deadlines |
