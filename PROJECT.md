@@ -122,7 +122,7 @@ The question is: Does the LLM respond the same to all three variants? And if not
 
 ### Role-Based Analysis
 
-Assign different roles to the LLM and investigate how the responses change. Note: This is about using roles as a *research method* to detect bias, not as a strategy to improve outputs — empirical research shows role prompts don't improve LLM performance (see Context Engineering below).
+Assign different roles to the LLM and investigate how the responses change. Note: This is about using roles as a *research method* to detect bias, not as a strategy to improve outputs. Empirical research shows role prompts don't improve LLM performance (see Context Engineering below).
 
 *Example: "You are a social worker" vs. "You are a judge" vs. "You are a teacher" – same case, different recommendation? The differences reveal the model's built-in assumptions about these professions.*
 

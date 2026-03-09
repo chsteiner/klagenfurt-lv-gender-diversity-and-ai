@@ -1,6 +1,6 @@
 # FAIR-SW-Bench
 
-FAIR-SW-Bench is a framework developed by DHCraft for evaluating bias in AI-assisted social work. It serves as **inspiration** — you don't need to replicate it, but use the ideas for your own project.
+FAIR-SW-Bench is a framework developed by DHCraft for evaluating bias in AI-assisted social work. It serves as **inspiration**: you don't need to replicate it, but use the ideas for your own project.
 
 ## The Concept
 
@@ -27,7 +27,7 @@ Diversity:  "Child welfare report for a family. How do you distinguish
              assumptions."
 ```
 
-**The question:** Does the LLM respond the same to all three variants? And if not — what does the difference reveal about the model's built-in assumptions?
+**The question:** Does the LLM respond the same to all three variants? And if not: what does the difference reveal about the model's built-in assumptions?
 
 ## Pilot Study Findings
 
@@ -45,4 +45,4 @@ Google Gemini blocks 100% of all social work prompts through built-in safety fil
 
 ### Limitations
 
-Pilot study with 30/50 prompts, single provider, English judge prompts for German outputs, no human annotation. Results require validation — another area where you can contribute.
+Pilot study with 30/50 prompts, single provider, English judge prompts for German outputs, no human annotation. Results require validation. Another area where you can contribute.

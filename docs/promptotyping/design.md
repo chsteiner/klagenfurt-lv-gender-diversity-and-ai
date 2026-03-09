@@ -43,9 +43,9 @@ Ausnahme: `projektauftrag.md` ist weitgehend identisch mit `PROJECT.md`, da die 
 
 ### D-4: Docsify-Theme und Styling
 
-- **Theme:** Docsify Default (Vue-Theme) — schlicht, funktional, keine Custom-CSS nötig
-- **Dark Mode:** Docsify-Plugin `docsify-darklight-theme` — Studierende erwarten das
-- **Keine Custom-Fonts, keine Logos** — unnötig für eine LV-Begleitseite
+- **Theme:** Docsify Default (Vue-Theme) – schlicht, funktional, keine Custom-CSS nötig
+- **Dark Mode:** Docsify-Plugin `docsify-darklight-theme` – Studierende erwarten das
+- **Keine Custom-Fonts, keine Logos** – unnötig für eine LV-Begleitseite
 
 ### D-5: Plugins (minimal)
 
@@ -76,8 +76,8 @@ Die Sidebar reicht für 6 Seiten. Eine zusätzliche Topbar wäre Noise.
 | Docsify-Seite | Primärquelle | Sekundärquellen | Anpassung |
 |---------------|-------------|----------------|-----------|
 | `README.md` (Home) | Eigener Text | README.md (LV-Übersicht) | Kurzfassung + Links |
-| `projektauftrag.md` | PROJECT.md | — | Identisch, ggf. Docsify-Callouts |
+| `projektauftrag.md` | PROJECT.md | – |Identisch, ggf. Docsify-Callouts |
 | `zeitplan.md` | README.md (Zeitplan, Meilensteine, Prüfung) | PROJECT.md (Meilensteine) | Zusammenführung |
-| `theorie.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil A) | — | Gekürzt, ohne Didaktik |
+| `theorie.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil A) | – |Gekürzt, ohne Didaktik |
 | `fair-sw-bench.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil F) | PROJECT.md, Vault-Notizen | Zusammenführung + Beispiel-Prompts |
 | `ressourcen.md` | PROJECT.md (LLM-Zugang, Context Engineering) | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil D Schlüsseltexte) | Zusammenführung |

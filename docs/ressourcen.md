@@ -2,7 +2,7 @@
 
 ## Ollama: Local LLMs (recommended)
 
-Run open-source models locally — free, unlimited, reproducible.
+Run open-source models locally: free, unlimited, reproducible.
 
 **Setup:**
 1. Install [Ollama](https://ollama.com/)
@@ -10,9 +10,9 @@ Run open-source models locally — free, unlimited, reproducible.
 3. API runs at `http://localhost:11434`
 
 **Models:**
-- `llama3` (~4.7 GB) — good all-rounder
+- `llama3` (~4.7 GB) – good all-rounder
 - `mistral` (~4.1 GB)
-- `phi3` (~2.2 GB) — runs on low-end hardware
+- `phi3` (~2.2 GB) – runs on low-end hardware
 
 **Python example:**
 ```python
@@ -37,11 +37,11 @@ If Ollama doesn't work: [ChatGPT](https://chat.openai.com/), [Claude](https://cl
 
 ## Context Engineering
 
-For working with LLMs: Instead of role assignments ("You are an expert"), provide the concrete **context** of your scenario — target group, institutional framework, diversity dimensions. Role prompts show no improvement in current models (Kim et al., ICLR 2025).
+For working with LLMs: Instead of role assignments ("You are an expert"), provide the concrete **context** of your scenario: target group, institutional framework, diversity dimensions. Role prompts show no improvement in current models (Kim et al., ICLR 2025).
 
 ## Coding Agents
 
-You may and should use AI tools for programming — Claude Code, GitHub Copilot, Cursor, or similar. GitHub Copilot Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack).
+You may and should use AI tools for programming: Claude Code, GitHub Copilot, Cursor, or similar. GitHub Copilot Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack).
 
 ## Promptotyping Skill
 
@@ -52,5 +52,5 @@ https://github.com/DigitalHumanitiesCraft/promptotyping-skill
 
 | Question | Who |
 |----------|-----|
-| Technical (Ollama, APIs, code) | Christian Steiner — Moodle forum |
-| Conceptual (bias, gender, theory) | Susanne Sackl-Sharif — Moodle forum |
+| Technical (Ollama, APIs, code) | Christian Steiner – Moodle forum |
+| Conceptual (bias, gender, theory) | Susanne Sackl-Sharif – Moodle forum |

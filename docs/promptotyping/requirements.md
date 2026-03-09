@@ -70,13 +70,13 @@ Als Studierende:r will ich die wichtigsten Gender/Diversity-Theorien kompakt nac
 - A.4: Intersektionalität (Crenshaw, Gender Shades)
 - A.6: Frameworks (Gendered Innovations, Value Sensitive Design, Data Feminism)
 - A.8: Raw Data Is an Oxymoron
-- F: FAIR-SW-Bench Konzeptinspiration (Varianten, Dimensionen, Paradox) — oder eigene Seite
+- F: FAIR-SW-Bench Konzeptinspiration (Varianten, Dimensionen, Paradox) – oder eigene Seite
 
 **Was NICHT rein:**
-- Teil B (Didaktik) — für Susi, nicht für Studis
-- Teil C (Einheitenplanung) — internes Dokument
-- Teil D (Literaturlisten für Susi) — zu umfangreich
-- Teil E (Brückentabelle) — kurze Version reicht
+- Teil B (Didaktik) – für Susi, nicht für Studis
+- Teil C (Einheitenplanung) – internes Dokument
+- Teil D (Literaturlisten für Susi) – zu umfangreich
+- Teil E (Brückentabelle) – kurze Version reicht
 
 **Erfolgskriterium:** Studierende können die für ihr Projekt relevanten Theorien nachschlagen, ohne 400 Zeilen lesen zu müssen.
 

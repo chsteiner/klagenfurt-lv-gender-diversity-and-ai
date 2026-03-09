@@ -8,11 +8,11 @@
 
 ## Quick Access
 
-- [Project Brief](projektauftrag.md) — What you need to do
-- [Timeline & Milestones](zeitplan.md) — When things happen and are due
-- [Theory Overview](theorie.md) — Key concepts for your project
-- [FAIR-SW-Bench](fair-sw-bench.md) — Research context and inspiration
-- [Resources & Tools](ressourcen.md) — Ollama, links, contact
+- [Project Brief](projektauftrag.md) – What you need to do
+- [Timeline & Milestones](zeitplan.md) – When things happen and are due
+- [Theory Overview](theorie.md) – Key concepts for your project
+- [FAIR-SW-Bench](fair-sw-bench.md) – Research context and inspiration
+- [Resources & Tools](ressourcen.md) – Ollama, links, contact
 
 ## Current Phase
 

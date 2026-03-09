@@ -13,9 +13,9 @@
 
 | Session | Date | Time | Format | Room | Content |
 |---------|------|------|--------|------|---------|
-| **3** | Mon 27.04. | 08:15–11:30 | Online | — | AI & Bias (guest C. Steiner), report groups |
-| **4** | Mon 11.05. | 08:15–09:45 | Online | — | Discuss concepts, Q&A |
-| **5** | Wed 03.06. | 08:15–11:30 | Online | — | Peer feedback on prototypes |
+| **3** | Mon 27.04. | 08:15–11:30 | Online | – | AI & Bias (guest C. Steiner), report groups |
+| **4** | Mon 11.05. | 08:15–09:45 | Online | – | Discuss concepts, Q&A |
+| **5** | Wed 03.06. | 08:15–11:30 | Online | – | Peer feedback on prototypes |
 | **6** | Wed 24.06. | 10:00–16:45 | Presence | C.0.16 | **Final presentations** |
 
 ## Milestones

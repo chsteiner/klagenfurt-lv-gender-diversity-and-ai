@@ -67,5 +67,5 @@ Open agent skill (works with any LLM): https://github.com/DigitalHumanitiesCraft
 
 ## Questions?
 
-- **Technical** (Ollama, APIs, code): Moodle forum — Christian Steiner
-- **Conceptual** (bias dimensions, theory): Moodle forum — Susanne Sackl-Sharif
+- **Technical** (Ollama, APIs, code): Moodle forum – Christian Steiner
+- **Conceptual** (bias dimensions, theory): Moodle forum – Susanne Sackl-Sharif

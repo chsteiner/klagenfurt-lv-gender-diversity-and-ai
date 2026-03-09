@@ -4,17 +4,17 @@ The key concepts from Part 1 of the course that you need for your project.
 
 ## I-Methodology
 
-Developers set their own perspective as the implicit standard. Whoever builds a system builds in their own assumptions — often without realizing it. (Bath 2011, Oudshoorn et al. 2004)
+Developers set their own perspective as the implicit standard. Whoever builds a system builds in their own assumptions, often without realizing it. (Bath 2011, Oudshoorn et al. 2004)
 
 ## Intersectionality
 
-Discrimination does not operate one-dimensionally. Gender, origin, class, age, disability — these categories overlap and produce specific disadvantages. (Crenshaw 1989)
+Discrimination does not operate one-dimensionally. Gender, origin, class, age, disability: these categories overlap and produce specific disadvantages. (Crenshaw 1989)
 
-**Example in LLMs:** Ask a model "The doctor told the nurse to prepare the patient. Who prepared the patient?" — LLMs consistently assume the nurse is female and the doctor is male (Kotek et al. 2023). Bias compounds when gender intersects with race, class, or age.
+**Example in LLMs:** Ask a model "The doctor told the nurse to prepare the patient. Who prepared the patient?" LLMs consistently assume the nurse is female and the doctor is male (Kotek et al. 2023). Bias compounds when gender intersects with race, class, or age.
 
 ## Bias Dimensions
 
-Five dimensions from the FAIR-SW-Bench framework — you can adopt, adapt, or define your own:
+Five dimensions from the FAIR-SW-Bench framework. You can adopt, adapt, or define your own:
 
 | Dimension | What is measured? |
 |-----------|------------------|
@@ -38,4 +38,4 @@ Science and Technology Studies from a feminist perspective: Technology is not ne
 
 ## EU AI Act
 
-Starting August 2026, the EU AI Act classifies systems in social work as **high-risk applications**. Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are missing — your project addresses exactly this gap.
+Starting August 2026, the EU AI Act classifies systems in social work as **high-risk applications**. Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are missing. Your project addresses exactly this gap.
