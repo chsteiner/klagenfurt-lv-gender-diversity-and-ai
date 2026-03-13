@@ -45,7 +45,7 @@ https://github.com/DigitalHumanitiesCraft/promptotyping-skill
 **Task 3 – Project implementation (workload: 50.25 hours per person)**
 
 * Develop your bias benchmark tool based on your Promptotyping docs.
-* Use LLM-assisted development (any coding agent: Claude Code, GitHub Copilot, Cursor, or similar). Note: GitHub Copilot Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack). Keep your Promptotyping docs updated as you go; they are living documents.
+* Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: GitHub Copilot is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack) and built into VS Code. Keep your Promptotyping docs updated as you go; they are living documents.
 * Minimum requirements: 10+ test prompts, 2+ bias dimensions, 1+ LLM, documented methodology, working code.
 * LLM access: free via [Ollama](https://ollama.com/) (local models) or free-tier web interfaces.
 
@@ -83,3 +83,5 @@ Basic programming skills in at least one language (ideally Python) and willingne
 1. Attendance (minimum of 80%) and participation (discussion)		20%
 2. Project: development, implementation and presentation (Task 1-3)		50%
 3. Promptotyping documentation in GitHub repository (Task 4)			30%
+
+**Course website:** https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/

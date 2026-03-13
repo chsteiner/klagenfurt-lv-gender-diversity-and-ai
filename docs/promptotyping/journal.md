@@ -26,4 +26,31 @@
 - Projektauftrag: Kompakte Version mit Link zum vollständigen PROJECT.md auf GitHub
 - Keine Duplikation zwischen Seiten – jede Seite hat einen klaren Zweck
 
-**Nächster Schritt:** GitHub Pages aktivieren (Christian via `gh` CLI).
+**Nächster Schritt:** ~~GitHub Pages aktivieren~~ erledigt.
+
+## 2026-03-13: Setup Guide und Copilot-Update
+
+**Auslöser:** Susi meldet, dass viele BWL- und Anglistik-Studis angemeldet sind. Technische Voraussetzungen waren nicht im Vorlesungsverzeichnis. Brauchen einen Setup Guide und eine Info-Mail.
+
+**Umgesetzt:**
+- `setup.md` (neue Seite): Step-by-Step Setup Guide für VS Code, Git, Python, GitHub/Copilot, Ollama
+- Sidebar auf 7 Einträge erweitert (Setup Guide als zweiter Eintrag)
+- Home-Seite: Setup Guide als erster Bold-Link
+- projektauftrag.md: "New here?" Callout mit Link zum Setup Guide
+- SYLLABUS.md: Website-URL ergänzt
+
+**Entscheidungen:**
+- Reihenfolge im Setup: VS Code → Git → Python → GitHub/Copilot → Ollama (logische Abhängigkeiten, nicht Wichtigkeit)
+- Agent Mode als separater Abschnitt nach den Installationsschritten – nicht für Session 1 nötig
+- Terminal-Tipp bei VS Code – viele Erstnutzer wissen nicht, wo das Terminal ist
+- Python PATH-Warnung als Callout – häufigster Setup-Fehler
+- Copilot Free Tier (50 Msg/Monat) als Fallback – Student Pack braucht bis zu 7 Tage
+
+**Copilot-Update (12.03.2026):**
+- GitHub hat "Copilot Student" als eigenen Plan eingeführt (vorher "Copilot Pro for students")
+- Copilot ist in VS Code integriert – kein manueller Extension-Install mehr nötig
+- Agent Mode ist der zentrale Workflow: Chat-Panel → "Agent" Dropdown → natürliche Sprache → Code
+- Alle Referenzen zu "Copilot Pro" durch korrekte Formulierungen ersetzt
+- Bezahlte Alternativen (Claude Code, Gemini CLI, Codex, Cursor, Windsurf) überall erwähnt
+
+**Nächster Schritt:** Commit und Push, dann Email-Entwurf an Susi weiterleiten.

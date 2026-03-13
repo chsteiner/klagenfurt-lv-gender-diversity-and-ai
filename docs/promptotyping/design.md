@@ -6,13 +6,14 @@
 docs/
 ├── index.html              # Docsify-Einstiegspunkt
 ├── .nojekyll               # GitHub Pages: kein Jekyll
-├── _sidebar.md             # Navigation
+├── _sidebar.md             # Navigation (7 Einträge)
 ├── README.md               # Home / Landing Page
-├── projektauftrag.md       # Vollständiger Projektauftrag
+├── setup.md                # Setup Guide (Tools vor Session 1)
+├── projektauftrag.md       # Kompakter Projektauftrag
 ├── zeitplan.md             # Termine, Meilensteine, Prüfung
-├── theorie.md              # Gender/Diversity-Theorie (für Informatiker:innen)
+├── theorie.md              # Gender/Diversity-Theorie
 ├── fair-sw-bench.md        # FAIR-SW-Bench Konzept + Befunde
-├── ressourcen.md           # Ollama, Tools, Literatur, Kontakt
+├── ressourcen.md           # Ollama, Coding Agents, Kontakt
 └── promptotyping/          # Promptotyping-Docs (nicht in Sidebar)
     ├── knowledge.md
     ├── requirements.md
@@ -33,7 +34,7 @@ docs/
 
 ### D-2: Flache Struktur statt Verschachtelung
 
-6 Seiten auf einer Ebene. Keine Unterordner, keine nested Navigation. Begründung: Master-Informatik-Studierende brauchen schnellen Zugriff, nicht Tiefe. Alles ist max. 1 Klick entfernt.
+7 Seiten auf einer Ebene (Home + Setup Guide + 5 Inhaltsseiten). Keine Unterordner, keine nested Navigation. Begründung: Studierende brauchen schnellen Zugriff, nicht Tiefe. Alles ist max. 1 Klick entfernt.
 
 ### D-3: Inhalt aus bestehenden .md-Dateien adaptieren, nicht kopieren
 
@@ -60,24 +61,26 @@ Kein Emoji-Plugin, kein Pagination-Plugin, kein Tab-Plugin. Weniger ist mehr.
 
 ```markdown
 - [Home](/)
-- [Projektauftrag](projektauftrag.md)
-- [Zeitplan & Meilensteine](zeitplan.md)
-- [Theorie-Überblick](theorie.md)
+- [Setup Guide](setup.md)
+- [Project Brief](projektauftrag.md)
+- [Timeline & Milestones](zeitplan.md)
+- [Theory Overview](theorie.md)
 - [FAIR-SW-Bench](fair-sw-bench.md)
-- [Ressourcen & Tools](ressourcen.md)
+- [Resources & Tools](ressourcen.md)
 ```
 
 ### D-7: Keine Docsify-Navbar
 
-Die Sidebar reicht für 6 Seiten. Eine zusätzliche Topbar wäre Noise.
+Die Sidebar reicht für 7 Seiten. Eine zusätzliche Topbar wäre Noise.
 
 ## Content-Mapping: Quelle → Seite
 
 | Docsify-Seite | Primärquelle | Sekundärquellen | Anpassung |
 |---------------|-------------|----------------|-----------|
 | `README.md` (Home) | Eigener Text | README.md (LV-Übersicht) | Kurzfassung + Links |
-| `projektauftrag.md` | PROJECT.md | – |Identisch, ggf. Docsify-Callouts |
+| `setup.md` | Eigener Text | – | Step-by-Step: VS Code, Git, Python, Copilot, Ollama |
+| `projektauftrag.md` | PROJECT.md | – | Kompakte Version, Link zu PROJECT.md |
 | `zeitplan.md` | README.md (Zeitplan, Meilensteine, Prüfung) | PROJECT.md (Meilensteine) | Zusammenführung |
-| `theorie.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil A) | – |Gekürzt, ohne Didaktik |
+| `theorie.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil A) | – | Gekürzt, ohne Didaktik |
 | `fair-sw-bench.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil F) | PROJECT.md, Vault-Notizen | Zusammenführung + Beispiel-Prompts |
 | `ressourcen.md` | PROJECT.md (LLM-Zugang, Context Engineering) | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil D Schlüsseltexte) | Zusammenführung |

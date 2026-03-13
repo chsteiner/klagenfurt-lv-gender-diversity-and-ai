@@ -244,8 +244,8 @@ Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgang
 - [ ] Moodle-Kurs einrichten
 - [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: Ollama (lokale Modelle) + Free-Tier Web-Interfaces
 - [x] ~~Syllabus mit aktuellen Änderungen abgleichen~~ – SYLLABUS.md erstellt, Promptotyping-Workflow integriert
-- [ ] GitHub Pages für Docsify-Website aktivieren
-- [ ] Docsify-Website committen und pushen
+- [x] ~~GitHub Pages für Docsify-Website aktivieren~~ – erledigt
+- [x] ~~Docsify-Website committen und pushen~~ – erledigt, Setup Guide ergänzt
 
 ---
 

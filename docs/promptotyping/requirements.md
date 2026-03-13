@@ -19,14 +19,33 @@ Als Studierende:r will ich jederzeit alle Seiten in einer Sidebar sehen, damit i
 **Struktur:**
 ```
 Home
-Projektauftrag
-Zeitplan & Meilensteine
-Theorie-Überblick
+Setup Guide
+Project Brief
+Timeline & Milestones
+Theory Overview
 FAIR-SW-Bench
-Ressourcen & Tools
+Resources & Tools
 ```
 
-**Erfolgskriterium:** Max. 6-7 Einträge, kein Scrollen in der Sidebar nötig.
+**Erfolgskriterium:** Max. 7 Einträge, kein Scrollen in der Sidebar nötig.
+
+---
+
+## Epic 1b: Setup Guide
+
+### US-1b.1: Tool-Setup vor Session 1
+Als Studierende:r will ich eine klare Schritt-für-Schritt-Anleitung, um alle nötigen Tools zu installieren, bevor der Kurs beginnt.
+
+**Inhalt:**
+- VS Code (mit Terminal-Tipp)
+- Git
+- Python (mit PATH-Warnung für Windows)
+- GitHub Account + Copilot (Free Tier + Student Pack)
+- Ollama
+- Agent Mode Erklärung (separater Abschnitt, nicht für Session 1 nötig)
+- Checklist + Troubleshooting
+
+**Erfolgskriterium:** Studierende ohne Vorerfahrung können alle Tools in 30–60 Minuten installieren und verifizieren.
 
 ---
 
@@ -112,7 +131,8 @@ Als Studierende:r will ich alle Tools und Links an einem Ort, damit ich nicht in
 - Free-Tier Web-Interfaces
 - Gemini-Warnung
 - Context Engineering (kurze Einführung)
-- Literatur / Schlüsseltexte (die für Studis relevanten aus Teil D)
+- Coding Agents: Copilot Agent Mode (gratis) + bezahlte Alternativen (Claude Code, Gemini CLI, Codex, Cursor, Windsurf)
+- Promptotyping Skill (Open Agent Skill)
 - Kontakt: Wer beantwortet was? (Christian: Technik, Susi: Theorie)
 
 **Erfolgskriterium:** Studierende können Ollama einrichten, ohne andere Quellen zu brauchen.

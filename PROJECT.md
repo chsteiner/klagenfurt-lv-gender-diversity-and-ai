@@ -224,7 +224,7 @@ For your project: When designing system prompts for your tool, experiment with t
 | Aspect | Specification |
 |--------|--------------|
 | **Teamwork** | Your choice: individual or team (max. 3 people). Group formation between EH 2 and EH 3, report in EH 3. |
-| **Coding Agents** | You may and should use AI tools for programming (Claude Code, GitHub Copilot, Cursor, or similar). GitHub Copilot Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack). |
+| **Coding Agents** | You may and should use AI coding agents. Free option: GitHub Copilot is built into VS Code and free for students via the [GitHub Student Developer Pack](https://education.github.com/pack). Use Agent Mode: describe what you need, and the agent writes the code. If you already have a paid subscription to Claude Code, Gemini CLI, Codex, Cursor, or another agent, use that instead. |
 | **Programming Language** | Your choice. Python recommended for easy API integration. |
 | **Submission** | GitHub repository with code and Promptotyping docs. |
 

@@ -13,6 +13,8 @@
 
 **First deadline:** Task 1 (Literature overview, 1 page .md) due **22.04.** on Moodle. See [Timeline](zeitplan.md) for all deadlines.
 
+> **New here?** Complete the [Setup Guide](setup.md) first to install all required tools.
+
 ## Minimum Requirements
 
 1. **10+ custom test scenarios/prompts**

@@ -41,7 +41,11 @@ For working with LLMs: Instead of role assignments ("You are an expert"), provid
 
 ## Coding Agents
 
-You may and should use AI tools for programming: Claude Code, GitHub Copilot, Cursor, or similar. GitHub Copilot Pro is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack).
+You may and should use AI coding agents for programming.
+
+**Free option:** GitHub Copilot is built into VS Code and free for students via the [GitHub Student Developer Pack](https://education.github.com/pack). Use **Agent Mode** (select "Agent" in the Copilot Chat dropdown): describe what you need in natural language, and the agent writes code, creates files, runs terminal commands, and fixes errors.
+
+**If you already have a paid subscription:** Use whichever agent you prefer. Claude Code (Anthropic), Gemini CLI (Google), Codex (OpenAI), Cursor, Windsurf, or any other coding agent. The methodology is the same: you describe the task, the agent writes the code.
 
 ## Promptotyping Skill
 

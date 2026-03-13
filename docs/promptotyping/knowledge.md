@@ -2,19 +2,26 @@
 
 ## Kontext
 
-Begleitwebsite für die LV "Gender, Diversität und KI" (Universität Klagenfurt, Master Informatik, SS2026). Die Website gibt Studierenden den vollständigen Überblick über Kurs, Projektauftrag, theoretische Grundlagen und Forschungskontext.
+Begleitwebsite für die LV "Gender, Diversity & AI" (Universität Klagenfurt, Master Informatik, SS2026). Die Website gibt Studierenden den vollständigen Überblick über Kurs, Projektauftrag, theoretische Grundlagen und Forschungskontext.
 
 ## Zielgruppe
 
-Master-Studierende Informatik, Universität Klagenfurt. Technisch versiert, wenig/keine Vorkenntnisse in Gender Studies. Deutschsprachig, Materialien teilweise Englisch.
+Primär Master-Studierende Informatik, Universität Klagenfurt. Aber auch BWL- und Anglistik-Studierende haben sich angemeldet. Technische Vorkenntnisse variieren stark. Wenig/keine Vorkenntnisse in Gender Studies.
+
+## Sprache
+
+Alle student-facing Dokumente sind auf **Englisch** (LV-Sprache). Interne Planungsdokumente (README.md, Promptotyping-Docs) bleiben Deutsch.
+
+**Stilregel:** Keine Em dashes (—) oder Doppelbindestriche (--). Gedankenstriche ( – , en dash mit Leerzeichen) sind erlaubt. Sonst Doppelpunkte, Semikolons, Punkte oder Satz umformulieren.
 
 ## Bestehende Inhaltsquellen
 
 | Quelle | Datei | Inhalt | Verwendung auf Website |
 |--------|-------|--------|----------------------|
-| Projektauftrag | `PROJECT.md` | Bias-Benchmark-Tool Aufgabe, Ansätze, Dimensionen, Ollama, Meilensteine, Bewertung | → Seite "Projektauftrag" (Kernseite) |
-| LV-Planung | `README.md` | Zeitplan, Prüfungsmodalitäten, Kontakt, Forschungskontext | → Seiten "Zeitplan", "Home" (Auszüge) |
-| Theorie-Dokument | `GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md` | Gender-Theorie für STEM, I-Methodology, Intersektionalität, Feminist STS, Frameworks, Case Studies, Didaktik | → Seite "Theorie" (gekürzt, ohne didaktische Teile B-E) |
+| Projektauftrag | `PROJECT.md` | Bias-Benchmark-Tool Aufgabe, Ansätze, Dimensionen, Ollama, Meilensteine, Bewertung | → Seite "Project Brief" (Kernseite) |
+| LV-Planung | `README.md` | Zeitplan, Prüfungsmodalitäten, Kontakt, Forschungskontext | → Seiten "Timeline", "Home" (Auszüge) |
+| Syllabus | `SYLLABUS.md` | Offizieller Syllabus mit Tasks, Learning Outcomes, Prerequisites | → Link von Website, Moodle |
+| Theorie-Dokument | `GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md` | Gender-Theorie für STEM, I-Methodology, Intersektionalität, Feminist STS, Frameworks, Case Studies, Didaktik | → Seite "Theory" (gekürzt, ohne didaktische Teile B-E) |
 | FAIR-SW-Bench (Vault) | Obsidian-Notizen | Framework-Architektur, 50 Testszenarien, Pilotstudie, Paradox, Context Engineering | → Seite "FAIR-SW-Bench" |
 
 ## Docsify-Spezifika
@@ -40,9 +47,16 @@ window.$docsify = {
 }
 ```
 
-## Sprachkonventionen
+## Coding Agents für Studierende
 
-- Website auf Deutsch (Studierendensprache)
-- Gendergerechte Sprache: Doppelpunkt-Form (Entwickler:innen, Nutzer:innen)
-- Du-Form für Studierende (konsistent mit PROJECT.md)
-- Fachbegriffe auf Englisch belassen (Bias, Prompting, LLM, Benchmark)
+- **Kostenlose Default-Option:** GitHub Copilot Agent Mode (in VS Code integriert, gratis via Student Developer Pack)
+- **Copilot Free Tier:** 50 Chat-Messages/Monat für jeden GitHub-Account, auch ohne Student Pack
+- **Bezahlte Alternativen:** Claude Code, Gemini CLI, Codex, Cursor, Windsurf – wer schon eine Lizenz hat, soll die nehmen
+- **Promptotyping Skill:** Open Agent Skill, funktioniert mit jedem LLM/Agent
+
+## Sprachkonventionen (student-facing)
+
+- Englisch (LV-Sprache)
+- Fachbegriffe auf Englisch (Bias, Prompting, LLM, Benchmark)
+- Kein gendering nötig auf Englisch
+- Keine Em dashes

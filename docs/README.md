@@ -8,6 +8,7 @@
 
 ## Quick Access
 
+- **[Setup Guide](setup.md) – Install tools before Session 1**
 - [Project Brief](projektauftrag.md) – What you need to do
 - [Timeline & Milestones](zeitplan.md) – When things happen and are due
 - [Theory Overview](theorie.md) – Key concepts for your project

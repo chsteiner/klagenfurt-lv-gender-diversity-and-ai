@@ -1,4 +1,5 @@
 - [Home](/)
+- [Setup Guide](setup.md)
 - [Project Brief](projektauftrag.md)
 - [Timeline & Milestones](zeitplan.md)
 - [Theory Overview](theorie.md)
