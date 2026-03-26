@@ -4,7 +4,7 @@
 
 **Lecturers:** Susanne Sackl-Sharif (Gender/Diversity), Christian Steiner (AI & Bias)
 
-**Your project:** Build a tool that makes bias in Large Language Models visible. You develop your own test scenarios, send them to an LLM, and systematically analyze the responses.
+**Your project:** Build a tool that makes bias in Large Language Models visible and measurable. You develop your own test scenarios, send them to an LLM, and systematically analyze the responses.
 
 ## Quick Access
 

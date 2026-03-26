@@ -6,7 +6,7 @@
 
 ## Short Version
 
-**Your task:** Build a tool that makes bias in Large Language Models visible.
+**Your task:** Build a tool that makes bias in Large Language Models visible and measurable.
 
 **Specifically:** You develop your own test scenarios (prompts), send them to an LLM, and systematically analyze whether the responses are biased, stereotypical, or discriminatory. You apply the gender and diversity theory from Part 1 of the course in practice.
 

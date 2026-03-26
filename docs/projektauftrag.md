@@ -2,7 +2,7 @@
 
 ## Short Version
 
-**Your task:** Build a tool that makes bias in Large Language Models visible.
+**Your task:** Build a tool that makes bias in Large Language Models visible and measurable.
 
 **What you submit:**
 - GitHub repository with code and [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
