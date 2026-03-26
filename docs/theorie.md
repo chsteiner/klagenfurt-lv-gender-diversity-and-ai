@@ -16,7 +16,7 @@ Discrimination does not operate one-dimensionally. Gender, origin, class, age, d
 
 ## Bias Dimensions
 
-Five dimensions from the [FAIR-SW-Bench](fair-sw-bench.md) framework. Your project must use [at least two](projektauftrag.md). You can adopt, adapt, or define your own:
+Five dimensions from the [FAIR-SW-Bench](fair-sw-bench.md) framework. Your project must use [at least one](projektauftrag.md) (more and intersections between them are even better). You can adopt, adapt, or define your own:
 
 | Dimension | What is measured? | Example |
 |-----------|------------------|---------|

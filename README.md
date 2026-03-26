@@ -87,7 +87,7 @@ A **Moodle forum** is available between sessions for project questions. Christia
 
 Students develop their own tool for measuring bias in LLM-generated responses, inspired by the FAIR-SW-Bench framework (concept description, not code). The full project brief is in [PROJECT.md](PROJECT.md).
 
-**Summary:** 10+ custom prompts, 2+ bias dimensions, 1+ LLM, documented methodology, working code. Domain, approach, and technical implementation are freely chosen. LLM access free via Ollama (local models) or free-tier web interfaces. Submission as GitHub repo. Individual work.
+**Summary:** 10+ custom prompts, 1+ bias dimension, 1+ LLM, documented methodology, working code. Domain, approach, and technical implementation are freely chosen. LLM access free via Ollama (local models) or free-tier web interfaces. Submission as GitHub repo. Individual work.
 
 ### What Students Receive
 

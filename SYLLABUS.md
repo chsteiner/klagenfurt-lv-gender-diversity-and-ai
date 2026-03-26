@@ -45,7 +45,7 @@ The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skil
 
 * Develop your bias benchmark tool based on your Promptotyping docs.
 * Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Keep your Promptotyping docs updated as you go; they are living documents.
-* Minimum requirements: 10+ test prompts, 2+ bias dimensions, 1+ LLM, documented methodology, working code.
+* Minimum requirements: 10+ test prompts, 1+ bias dimension, 1+ LLM, documented methodology, working code.
 * LLM access: free via [Ollama](https://ollama.com/) (local models) or free-tier web interfaces.
 
 **Deadline (prototype):** 03.06.2026 (prepare short demo for EH 5)

@@ -6,7 +6,7 @@
 
 **What you submit:**
 - GitHub repository with code and [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
-- At least 10 custom prompts, 2 bias dimensions, 1 LLM
+- At least 10 custom prompts, 1+ bias dimension, 1 LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
 **Grading:** Theory integration counts more than code complexity.
@@ -18,7 +18,7 @@
 ## Minimum Requirements
 
 1. **10+ custom test scenarios/prompts**
-2. **2+ bias dimensions** that you systematically evaluate
+2. **1+ bias dimension** that you systematically evaluate (more and intersections between them are even better)
 3. **1+ LLM** that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way?
 5. **Working code** with [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
