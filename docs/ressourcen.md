@@ -47,9 +47,9 @@ You may and should use AI coding agents for programming.
 
 **If you already have a paid subscription:** Use whichever agent you prefer. [Claude Code](https://docs.anthropic.com/en/docs/claude-code) (Anthropic), [Gemini CLI](https://github.com/google-gemini/gemini-cli) (Google), [Codex](https://openai.com/index/introducing-codex/) (OpenAI), [Cursor](https://www.cursor.com/), [Windsurf](https://windsurf.com/), or any other coding agent. The methodology is the same: you describe the task, the agent writes the code.
 
-## Promptotyping Skill
+## Promptotyping Skill (optional)
 
-The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM. Install it in your coding agent or copy the .md templates into any LLM conversation: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
+The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is a recommended (not required) approach to project documentation. It structures your work into four .md files that also serve as an LLM knowledge base. Available as an open agent skill: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
 ## References
 

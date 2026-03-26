@@ -5,7 +5,7 @@
 **Your task:** Build a tool that makes bias in Large Language Models visible and measurable.
 
 **What you submit:**
-- GitHub repository with code and [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
+- GitHub repository with code and documentation
 - At least 10 custom prompts, 1+ bias dimension, 1 LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
@@ -21,7 +21,7 @@
 2. **1+ bias dimension** that you systematically evaluate (more and intersections between them are even better)
 3. **1+ LLM** that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way?
-5. **Working code** with [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
+5. **Working code** with documentation
 
 ## What You Decide
 
@@ -44,27 +44,20 @@
 
 Details and example prompts in the full [PROJECT.md](https://github.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/blob/main/PROJECT.md).
 
-## Promptotyping: Your Documentation
+## Documentation
 
-You maintain four documents throughout your project:
+You must document your project: what you investigated, how, and why. This is 30% of your grade.
 
-| Document | Purpose |
-|----------|---------|
-| **knowledge.md** | Domain knowledge, sources, constraints |
-| **requirements.md** | What your tool should do |
-| **design.md** | Technical decisions |
-| **journal.md** | Project log |
+**Recommended:** The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology – four structured documents (knowledge.md, requirements.md, design.md, journal.md). Available as an open agent skill: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
-**Core principle: Your artifact must be regenerable from the docs.**
-
-Open agent skill (works with any LLM): [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
+**Alternative:** Any documentation format that is complete, reflective, and shows your methodology.
 
 ## Grading
 
 | Component | Weight |
 |-----------|--------|
 | **Project** (GitHub repo: code + presentation, [Tasks 1–3](zeitplan.md)) | 50% |
-| **[Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) documentation** ([Task 4](zeitplan.md)) | 30% |
+| **Documentation** ([Task 4](zeitplan.md)) | 30% |
 | **Participation** | 20% |
 
 ## Questions?

@@ -73,9 +73,9 @@ Applying the theoretical foundations to AI systems. Christian Steiner provides t
 |----------|-----------|------------|
 | 22.04. | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md on Moodle |
 | Session 3 (27.04.) | **Present topic** | In session |
-| 06.05. | **Task 2: Concept (Promptotyping docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md on Moodle |
+| 06.05. | **Task 2: Concept** – Project plan and documentation | .md on Moodle |
 | Before Session 5 (03.06.) | **Prototype** – First working version | Prepare short demo |
-| Session 6 (24.06.) | **Final presentation + submission** – Finished tool, final Promptotyping docs | GitHub repo (code + Promptotyping docs) |
+| Session 6 (24.06.) | **Final presentation + submission** – Finished tool, final documentation | GitHub repo (code + documentation) |
 
 ### Async Support
 
@@ -114,10 +114,10 @@ Upon completion, students will be able to:
 | Component | Weight | Assessed by |
 |-----------|--------|-------------|
 | **Project** (GitHub repo: code + presentation, Tasks 1-3) | 50% | Theory integration, technical implementation, creativity |
-| **Promptotyping documentation** in GitHub repo (Task 4) | 30% | Completeness, regenerability, reflection |
+| **Documentation** in GitHub repo (Task 4) | 30% | Completeness, methodology, reflection |
 | **Participation** | 20% | Attendance (min. 80%), active contribution, peer feedback |
 
-Instead of a written reflection: Final Promptotyping docs in the GitHub repo serve as documentation AND LLM knowledge base. Core principle: **The artifact must be regenerable from the docs.** Theory integration counts more than code complexity. Details in [PROJECT.md](PROJECT.md).
+Instead of a written reflection: Final documentation in the GitHub repo. [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology recommended but not required. Theory integration counts more than code complexity. Details in [PROJECT.md](PROJECT.md).
 
 ---
 

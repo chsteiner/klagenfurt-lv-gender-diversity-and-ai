@@ -8,10 +8,10 @@ Guest contributions by Christian Steiner ([christian.steiner@dhcraft.org](mailto
 | :---- | :---- |
 | **17.03.2026** 13.30-18.30 presence | **Gender theories 1: Basic concepts** Course overview and introduction. Input on gender theories: Important terms, concepts, and theories. Individual and group work: Autoethnographic reflections. |
 | **26.03.2026** 13.30-18.30 presence | **Gender theories 2: Gender and technology** Input on Gender Studies and Science and Technology Studies. Individual and group work: Research on bias and artificial intelligence. Project brief presented. *Deadline 1: Task 1 – Literature on bias and AI (22.04.2026, Moodle)* |
-| **27.04.2026** 8.15-11.30 online | **Project 1: Introduction to bias detection and AI** Guest contribution by Christian Steiner: AI types, bias manifestations, detection methods, FAIR-SW-Bench findings. Present topic. *Deadline 2: Task 2 – Concept / Promptotyping docs (06.05.2026, Moodle)* |
+| **27.04.2026** 8.15-11.30 online | **Project 1: Introduction to bias detection and AI** Guest contribution by Christian Steiner: AI types, bias manifestations, detection methods, FAIR-SW-Bench findings. Present topic. *Deadline 2: Task 2 – Concept / project documentation (06.05.2026, Moodle)* |
 | **11.05.2026** 8.15-9.45 online | **Project 2: Feedback on concepts and open questions** *Deadline 3: Prototype (until 03.06.2026)* |
 | **03.06.2026** 8.15-11.30 online | **Project 3: Prototype** Presentation of all prototypes. Peer feedback. Discussion of open questions. *Deadline 4: Final presentation and submission (24.06.2026, in presence)* |
-| **24.06.2026** 10.00-16.45 presence | **Project 4: Final presentations and submission** Final presentations (10 min + 5 min discussion). GitHub repository submission (code + promptotyping docs). |
+| **24.06.2026** 10.00-16.45 presence | **Project 4: Final presentations and submission** Final presentations (10 min + 5 min discussion). GitHub repository submission (code + documentation). |
 | **Workload (attendance): 24.75 hours** | |
 
 A **Moodle forum** is available between sessions for questions about the project work. Christian Steiner answers technical questions about APIs, bias detection, and tooling. Susanne Sackl-Sharif handles conceptual and theoretical questions.
@@ -26,40 +26,35 @@ A **Moodle forum** is available between sessions for questions about the project
 
 **Deadline:** 22.04.2026 (.md file on Moodle)
 
-**Task 2 – Project concept: Promptotyping documents (workload: 10 hours per person)**
+**Task 2 – Project concept: Documentation (workload: 10 hours per person)**
 
-Your concept submission consists of four Promptotyping documents (.md files):
+Your concept submission documents your project plan: what you want to investigate, how, and why. Submit as .md files on Moodle.
 
-* **knowledge.md** – Domain knowledge, sources, constraints, and conventions for your project.
-* **requirements.md** – What your tool should do: user stories, acceptance criteria, scope.
-* **design.md** – Technical and architectural decisions: how you plan to build it.
-* **journal.md** – Project log: decisions made, alternatives considered, open questions.
+**Recommended approach: [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)** – a structured methodology with four documents (knowledge.md, requirements.md, design.md, journal.md) that serve as both project plan and LLM knowledge base. Available as an open agent skill: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
-These documents serve as your project plan AND as a knowledge base for LLM-assisted development. The core principle: **your artifact must be regenerable from the docs.** If you delete your code, an LLM reading your Promptotyping docs should be able to recreate it.
-
-The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM (Claude, ChatGPT, Gemini, local models). You can install it as a skill in your coding agent or simply copy the .md templates into any LLM conversation: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
+**Alternative:** Any other documentation format (single report, research notebook, your own structure) is fine too. What matters is completeness and clarity.
 
 **Deadline:** 06.05.2026 (zipped .md files on Moodle)
 
 **Task 3 – Project implementation (workload: 50.25 hours per person)**
 
-* Develop your bias benchmark tool based on your Promptotyping docs.
-* Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Keep your Promptotyping docs updated as you go; they are living documents.
+* Develop your bias benchmark tool based on your project documentation.
+* Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Keep your documentation updated as you go; it is a living document.
 * Minimum requirements: 10+ test prompts, 1+ bias dimension, 1+ LLM, documented methodology, working code.
 * LLM access: free via [Ollama](https://ollama.com/) (local models) or free-tier web interfaces.
 
 **Deadline (prototype):** 03.06.2026 (prepare short demo for EH 5)
-**Deadline (final):** 24.06.2026 (GitHub repository: code + final Promptotyping docs)
+**Deadline (final):** 24.06.2026 (GitHub repository: code + final documentation)
 
-**Task 4 – Final Promptotyping documentation (workload: 10 hours per person)**
+**Task 4 – Final documentation (workload: 10 hours per person)**
 
-Your final Promptotyping docs in the GitHub repository serve as both project documentation and written reflection. Update them to reflect:
+Your final documentation in the GitHub repository serves as both project documentation and written reflection. Update it to reflect:
 
 1. Final state of knowledge, requirements, design decisions
 2. Results: What did you find? What patterns of bias did you detect?
 3. Reflection: What worked, what didn't? What would you do differently?
 
-The Promptotyping docs replace a traditional written reflection. They must be complete enough that your tool could be regenerated from them.
+The documentation replaces a traditional written reflection. It must be complete enough that your methodology and findings are clearly reproducible.
 
 **Deadline:** 24.06.2026 (part of the GitHub repository submission)
 
@@ -81,6 +76,6 @@ Basic programming skills in at least one language (ideally Python) and willingne
 
 1. Attendance (minimum of 80%) and participation (discussion)		20%
 2. Project: development, implementation and presentation (Task 1-3)		50%
-3. Promptotyping documentation in GitHub repository (Task 4)			30%
+3. Documentation in GitHub repository (Task 4)				30%
 
 **Course website:** https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/

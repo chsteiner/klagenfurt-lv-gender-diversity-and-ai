@@ -11,7 +11,7 @@
 **Specifically:** You develop your own test scenarios (prompts), send them to an LLM, and systematically analyze whether the responses are biased, stereotypical, or discriminatory. You apply the gender and diversity theory from Part 1 of the course in practice.
 
 **What you submit:**
-- GitHub repository with working code and documentation ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)
+- GitHub repository with working code and documentation
 - At least 10 custom prompts, 1+ bias dimension, 1 LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
@@ -55,7 +55,7 @@ This means: Good intentions don't guarantee good results. Whether and how this e
 2. **At least 1 bias dimension** that you systematically evaluate (more dimensions and intersections between them are even better)
 3. **At least 1 LLM** that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way and not another?
-5. **Working code** with [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
+5. **Working code** with documentation
 
 ### What We Don't Prescribe
 
@@ -227,13 +227,13 @@ For your project: When designing system prompts for your tool, experiment with t
 | **Version Control** | [Git](https://git-scm.com/) + [GitHub](https://github.com/). See the [Setup Guide](https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/#/setup) for installation. |
 | **Coding Agents** | You may and should use AI coding agents. Free option: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Use Agent Mode: describe what you need, and the agent writes the code. If you already have a paid subscription to [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Codex](https://openai.com/index/introducing-codex/), [Cursor](https://www.cursor.com/), or another agent, use that instead. |
 | **Programming Language** | Your choice. Python recommended for easy API integration. |
-| **Submission** | GitHub repository with code and Promptotyping docs. |
+| **Submission** | GitHub repository with code and documentation. |
 
-### Promptotyping: Your Project Documentation
+### Project Documentation
 
-Your project uses the **Promptotyping methodology**: Documents as Source of Truth, Code as Disposable Artifact.
+You must document your project: what you investigated, how, and why. This documentation is 30% of your grade.
 
-You maintain four documents throughout your project:
+**Recommended approach: Promptotyping** – a structured methodology where you maintain four documents:
 
 | Document | Purpose |
 |----------|---------|
@@ -242,9 +242,11 @@ You maintain four documents throughout your project:
 | **design.md** | Technical decisions: how you build it |
 | **journal.md** | Project log: decisions, alternatives, open questions |
 
-**Core principle: Your artifact must be regenerable from the docs.** If you delete your code, an LLM reading your Promptotyping docs should be able to recreate it.
+The core principle of Promptotyping: Your artifact must be regenerable from the docs. If you delete your code, an LLM reading your docs should be able to recreate it.
 
-The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM. You can install it in your coding agent or simply copy the .md templates into any LLM conversation: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
+The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
+
+**Alternative:** If you prefer a different documentation format (e.g., a single report, a research notebook, or your own structure), that's fine too. What matters is that your documentation is complete, reflective, and shows your methodology.
 
 ---
 
@@ -254,9 +256,9 @@ The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skil
 |----------|------|------------|
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
 | **EH 3 (27.04.)** | Present topic | In session |
-| **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
+| **06.05.** | **Task 2: Concept** – Project plan and documentation (e.g., Promptotyping docs or your own format) | .md files on Moodle |
 | **03.06.** | **Task 3: Implementation** – Prototype ready | Prepare short demo for EH 5 |
-| **24.06.** | **Task 3: Implementation** – Final presentation (10 min + 5 min discussion) + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |
+| **24.06.** | **Task 3: Implementation** – Final presentation (10 min + 5 min discussion) + **Task 4: Final documentation** | GitHub repo (code + documentation) |
 
 ---
 
@@ -265,7 +267,7 @@ The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skil
 What counts (in descending priority):
 
 1. **Theory integration** – Why these bias dimensions? Why these prompts? Connection to gender/diversity theory from Part 1
-2. **Promptotyping documentation** – Complete, regenerable, reflective. This is 30% of your grade.
+2. **Documentation** – Complete, reflective, shows your methodology. This is 30% of your grade.
 3. **Technical implementation** – Does the code work? Is it understandable?
 4. **Creativity** – Original approaches in prompt design, methodology, or domain
 5. **Participation** – Engagement in sessions, discussions, peer feedback
@@ -273,7 +275,7 @@ What counts (in descending priority):
 | Component | Weight |
 |-----------|--------|
 | Project (GitHub repo: code + presentation, Tasks 1-3) | 50% |
-| Promptotyping documentation (Task 4) | 30% |
+| Documentation (Task 4) | 30% |
 | Participation | 20% |
 
 ---
