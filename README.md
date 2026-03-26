@@ -1,266 +1,263 @@
-# Lehrveranstaltungsplanung: Gender, Diversität und KI
+# Course Planning: Gender, Diversity & AI
 
-> **Universität Klagenfurt – Masterstudium Informatik – Sommersemester 2026**
+> **Questions?** [christian.steiner@dhcraft.org](mailto:christian.steiner@dhcraft.org)
 
----
-
-## Übersicht
-
-| Feld | Details |
-|------|---------|
-| **Titel** | Gender, Diversität und Künstliche Intelligenz |
-| **ECTS** | 4 (entspricht 100 Arbeitsstunden) |
-| **Kontaktzeit** | ~24,75 Stunden (6 Einheiten: 3x Präsenz, 3x Online) |
-| **Selbststudium** | ~75,25 Stunden |
-| **Lehrende** | Susanne Sackl-Sharif (Hauptlehrende), Christian Steiner (Gastbeiträge KI & Bias) |
-| **Zielgruppe** | Master-Studierende Informatik |
-| **Sprache** | Englisch |
+> **University of Klagenfurt – Master Computer Science – SS2026**
 
 ---
 
-## Struktur der Lehrveranstaltung
+## Overview
 
-Die LV gliedert sich in zwei inhaltliche Teile:
-
-### Teil 1: Gender- und Diversitätsgrundlagen (EH 1–2)
-*Verantwortlich: Susanne Sackl-Sharif*
-
-Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten Grundlagenwissen zu Gender und Diversität, um später Bias in KI-Systemen erkennen und analysieren zu können. Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt.
-
-### Teil 2: Gender, Diversität und KI (EH 3–6)
-*Verantwortlich: Susanne Sackl-Sharif mit Gastbeiträgen von Christian Steiner (DHCraft)*
-
-Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert in EH 3 den technischen Input zu KI-Typen und Bias-Manifestationen. Im Zentrum steht das Studierendenprojekt: Die eigenständige Entwicklung eines Bias-Benchmark-Tools für Large Language Models.
-
----
-
-## Zeitplan und Einheiten
-
-### Teil 1: Gender und Diversität
-
-| EH | Datum | Zeit | Format | Raum | Inhalte |
-|----|-------|------|--------|------|---------|
-| **1** | Di 17.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | LV-Einführung, Inputs zu Gender und Diversität, Reflexionsübung |
-| **2** | Do 26.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen** |
-
-*Zwischen EH 2 und EH 3 (26.03.–27.04.): Texte lesen, Task 1 (Literaturübersicht bis 22.04.)*
-
-### Teil 2: Gender und KI
-
-| EH | Datum | Zeit | Format | Raum | Inhalte |
-|----|-------|------|--------|------|---------|
-| **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Thema vorstellen; Q&A zum Projekt |
-| **4** | Mo 11.05.2026 | 08:15–09:45 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
-| **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
-| **6** | Mi 24.06.2026 | 10:00–16:45 | Präsenz | C.0.16 | Abschlusspräsentationen der Projekte |
-
-### Stundenübersicht
-
-| Format | Einheiten | Stunden |
-|--------|-----------|---------|
-| Präsenz | EH 1 (5h), EH 2 (5h), EH 6 (6,75h) | ~16,75h |
-| Online | EH 3 (3,25h), EH 4 (1,5h), EH 5 (3,25h) | ~8h |
-| **Gesamt** | | **~24,75h** |
-
-### Begründung der Einheitenplanung
-
-Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** zum Projektstart. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
+| Field | Details |
+|-------|---------|
+| **Title** | Gender, Diversity & AI |
+| **ECTS** | 4 (100 working hours) |
+| **Contact hours** | ~24.75 hours (6 sessions: 3 in-person, 3 online) |
+| **Self-study** | ~75.25 hours |
+| **Lecturers** | Susanne Sackl-Sharif (main lecturer), Christian Steiner (guest: AI & Bias) |
+| **Target audience** | Master students Computer Science (also BWL and Anglistik students enrolled) |
+| **Language** | English |
+| **Course website** | [chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai](https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/) |
 
 ---
 
-## Meilensteine und Betreuung
+## Course Structure
 
-### Projektmeilensteine
+The course has two parts:
 
-| Zeitpunkt | Meilenstein | Abgabe |
-|-----------|-------------|--------|
-| 22.04. | **Task 1: Literaturübersicht**: Thema, 2-3 Quellen, 1 Seite | .md auf Moodle |
-| EH 3 (27.04.) | **Thema vorstellen** | In der Einheit |
-| 06.05. | **Task 2: Konzept (Promptotyping Docs)**: knowledge.md, requirements.md, design.md, journal.md | Gezippte .md auf Moodle |
-| Vor EH 5 (03.06.) | **Prototyp**: Erster lauffähiger Stand (auch minimal) | Kurze Demo vorbereiten |
-| EH 6 (24.06.) | **Abschlusspräsentation + Abgabe**: Fertiges Tool, finale Promptotyping Docs | GitHub-Repo (Code + Promptotyping Docs) |
+### Part 1: Gender and Diversity (Sessions 1–2)
+*Led by: Susanne Sackl-Sharif*
 
-### Asynchrone Betreuung
+Theoretical introduction without direct AI connection. Students learn foundational gender and diversity concepts to later identify and analyze bias in AI systems. Focus on I-Methodology (Bath 2011) as a bridge to computer science: how developers set their own perspective as the implicit standard. The project brief is presented at the end of Session 2.
 
-Zwischen den Einheiten steht ein **Moodle-Forum** für Fragen zur Projektarbeit zur Verfügung. Christian Steiner beantwortet dort technische Fragen zu APIs, Bias-Detektion und Tooling. Susanne Sackl-Sharif betreut konzeptuelle und theoretische Fragen.
+### Part 2: Gender, Diversity and AI (Sessions 3–6)
+*Led by: Susanne Sackl-Sharif with guest contributions by Christian Steiner (DHCraft)*
+
+Applying the theoretical foundations to AI systems. Christian Steiner provides the technical input on AI types and bias manifestations in Session 3. The focus is the student project: independently developing a bias benchmark tool for Large Language Models. Individual work only.
 
 ---
 
-## Projektauftrag: Bias-Benchmark-Tool
+## Schedule
 
-Die Studierenden entwickeln ein eigenes Tool zur Messung von Bias in LLM-generierten Antworten, inspiriert vom FAIR-SW-Bench Framework (Konzeptbeschreibung, nicht Code). Der vollständige Projektauftrag für die Studierenden steht in [PROJECT.md](PROJECT.md).
+### Part 1: Gender and Diversity
 
-**Kurzfassung:** 10+ eigene Prompts, 2+ Bias-Dimensionen, 1+ LLM, dokumentierte Methodik, funktionierender Code. Themenfeld, Ansatz und technische Umsetzung sind frei wählbar. LLM-Zugang kostenlos über Ollama (lokale Modelle) oder Free-Tier Web-Interfaces. Abgabe als GitHub-Repo. Einzelarbeit.
+| Session | Date | Time | Format | Room | Content |
+|---------|------|------|--------|------|---------|
+| **1** | Tue 17.03.2026 | 13:30–18:30 | In-person | C.0.16 | Course introduction, gender and diversity input, reflection exercise |
+| **2** | Thu 26.03.2026 | 13:30–18:30 | In-person | C.0.16 | Deepening gender and diversity; text discussion; **project brief presented** |
 
-### Was die Studierenden erhalten
+*Between Sessions 2 and 3 (26.03.–27.04.): Read texts, Task 1 (literature overview due 22.04.)*
 
-1. **Theoretische Grundlagen** (Teil 1): Gender/Diversitätstheorien, Intersektionalität, Bias-Definition
-2. **Technische Einführung** (Gastbeitrag Christian Steiner, EH 3): KI-Typen, Bias-Manifestationen, Detektionsmethoden
-3. **Konzeptuelle Inspiration**: FAIR-SW-Bench Beschreibung, Bias-Dimensionen, Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
+### Part 2: Gender and AI
 
----
+| Session | Date | Time | Format | Room | Content |
+|---------|------|------|--------|------|---------|
+| **3** | Mon 27.04.2026 | 08:15–11:30 | Online | – | **Guest: Christian Steiner** – AI types, bias manifestations, detection methods; present topics; Q&A |
+| **4** | Mon 11.05.2026 | 08:15–09:45 | Online | – | Discuss concepts; Q&A on project work |
+| **5** | Wed 03.06.2026 | 08:15–11:30 | Online | – | Peer feedback on prototypes |
+| **6** | Wed 24.06.2026 | 10:00–16:45 | In-person | C.0.16 | Final presentations |
 
-## Intendierte Lernergebnisse
+### Hours Breakdown
 
-Nach Abschluss der Lehrveranstaltung sollten die Studierenden:
-
-1. Einen Überblick über verschiedene Gender- und Diversitätstheorien haben
-2. Verstehen, wie sich Bias in unterschiedlichen KI-Systemtypen manifestiert (regelbasiert, prädiktiv, generativ)
-3. Bias-Detektionsmethodiken für LLMs entwerfen und implementieren können
-4. Praktische Erfahrung mit KI-gestützten Entwicklungstools (Coding Agents) gesammelt haben
-5. Ihre Fähigkeiten in selbstständiger Projektplanung und -umsetzung vertieft haben
-
----
-
-## Prüfungsmodalitäten
-
-### Prüfungskomponenten und Beurteilung
-
-| Komponente | Gewichtung | Beurteilung nach |
-|------------|------------|------------------|
-| **Projektarbeit** (GitHub-Repo: Code + Präsentation, Tasks 1-3) | 50% | Theoriebezug, technische Umsetzung, Kreativität |
-| **Promptotyping-Dokumentation** im GitHub-Repo (Task 4) | 30% | Vollständigkeit, Regenerierbarkeit, Reflexion |
-| **Teilnahme** | 20% | Anwesenheit (min. 80%), aktive Beteiligung, Peer-Feedback |
-
-Statt schriftlicher Reflexion: Finale Promptotyping Docs im GitHub-Repo dienen als Dokumentation UND LLM-Wissensspeicher. Kernprinzip: **Das Artefakt muss aus den Docs regenerierbar sein.** Theoriebezug zählt mehr als Code-Komplexität. Details in [PROJECT.md](PROJECT.md).
+| Format | Sessions | Hours |
+|--------|----------|-------|
+| In-person | Session 1 (5h), Session 2 (5h), Session 6 (6.75h) | ~16.75h |
+| Online | Session 3 (3.25h), Session 4 (1.5h), Session 5 (3.25h) | ~8h |
+| **Total** | | **~24.75h** |
 
 ---
 
-## Voraussetzungen
+## Milestones
 
-> Grundlegende Programmierkenntnisse in mindestens einer Sprache (idealerweise Python) sowie Bereitschaft zur Arbeit mit KI-gestützten Entwicklungstools (Coding Agents). Keine Vorkenntnisse in Machine Learning oder Gender Studies erforderlich.
+| Deadline | Milestone | Submission |
+|----------|-----------|------------|
+| 22.04. | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md on Moodle |
+| Session 3 (27.04.) | **Present topic** | In session |
+| 06.05. | **Task 2: Concept (Promptotyping docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md on Moodle |
+| Before Session 5 (03.06.) | **Prototype** – First working version | Prepare short demo |
+| Session 6 (24.06.) | **Final presentation + submission** – Finished tool, final Promptotyping docs | GitHub repo (code + Promptotyping docs) |
 
----
+### Async Support
 
-## Lehrmethodik
-
-| Methode | Einsatz | Einheit |
-|---------|---------|---------|
-| **Input/Vortrag** | Theoretische Grundlagen (Teil 1), Technische Einführung (Teil 2) | EH 1–3 |
-| **Textdiskussion** | Ausgewählte Texte aus Gender Studies und Science & Technology Studies | EH 2 |
-| **Reflexionsübungen** | Individuelle und Gruppenreflexion zu Gender/Diversität | EH 1, 3 |
-| **Projektarbeit** | Selbstständige Entwicklung des Bias-Benchmark-Tools | EH 3–6 |
-| **Peer-Feedback** | Gegenseitige Rückmeldung zu Projektfortschritten | EH 5 |
-| **Präsentationen** | Abschlusspräsentation der Projekte | EH 6 |
+A **Moodle forum** is available between sessions for project questions. Christian Steiner answers technical questions about APIs, bias detection, and tooling. Susanne Sackl-Sharif handles conceptual and theoretical questions.
 
 ---
 
-## Inhalte im Detail
+## Project Brief: Bias Benchmark Tool
 
-### Teil 1: Gender- und Diversitätstheorien
+Students develop their own tool for measuring bias in LLM-generated responses, inspired by the FAIR-SW-Bench framework (concept description, not code). The full project brief is in [PROJECT.md](PROJECT.md).
 
-- Kurze Geschichte der Gender und Diversity Studies
-- De/konstruktivistische Ansätze
-- Definition von Bias und Diskriminierung
-- Intersektionalität
-- Soziale Ungleichheiten
-- Texte aus dem Bereich Science and Technology Studies
-- I-Methodology (Bath 2011): Wie Entwickler:innen eigene Perspektiven als Standard setzen
+**Summary:** 10+ custom prompts, 2+ bias dimensions, 1+ LLM, documented methodology, working code. Domain, approach, and technical implementation are freely chosen. LLM access free via Ollama (local models) or free-tier web interfaces. Submission as GitHub repo. Individual work.
 
-### Teil 2: KI und Bias
+### What Students Receive
 
-- **KI-Typen und ihre Bias-Manifestationen**:
-  - Regelbasiert: Normative Schwellenwerte und Kategorien
-  - Prädiktiv: Verzerrte Trainingsdaten und Labels
-  - Generativ: Stereotype Muster in Trainingskorpora
-
-- **Empirische Befunde zu Gender Bias in LLMs** (UNESCO/IRCAI 2024, Kotek et al. 2023):
-  - Stereotype Berufsassoziationen
-  - "Siloing-Effekt" bei Geschlechterzuordnungen
-  - Effekte von Post-Training auf Bias
-
-- **Methoden zur Bias-Detektion**:
-  - Kontrastive Prompts
-  - Systematisches Output-Monitoring
-  - Audit-Frameworks (HELM, DecodingTrust)
-  - Das Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
-
-- **Vorläufige Befunde aus FAIR-SW-Bench**:
-  - Diversitäts-Instruktions-Paradox: Diversity-aware Prompts können Bias verstärken
-  - Utility-Safety-Trade-off: Bias-Reduktion vs. Antwortqualität
-  - Google Gemini: Vollständige Blockierung von Social-Work-Prompts im Pilottest
-  - EU AI Act: KI-Systeme im Bereich wesentlicher öffentlicher Dienstleistungen als Hochrisikoanwendung ab August 2026
-
-- **Context Engineering statt Prompt Engineering**:
-  - Kontext kuratieren statt Rollen-Prompts formulieren
-  - Empirische Evidenz gegen Persona-Prompting (Kim et al., ICLR 2025)
-  - Relevanz für das Tool-Design der Studierenden
-
-- **Human-in-the-Loop und AI Literacy**:
-  - Kritische Bewertung von KI-Outputs
-  - Entscheidungshoheit bei Fachkräften behalten
+1. **Theoretical foundations** (Part 1): Gender/diversity theories, intersectionality, bias definition
+2. **Technical introduction** (Guest Christian Steiner, Session 3): AI types, bias manifestations, detection methods
+3. **Conceptual inspiration**: FAIR-SW-Bench description, bias dimensions, prompt variant method (Base/Neutral/Diversity-Aware)
 
 ---
 
-## Bezug zu Forschungsprojekten
+## Learning Outcomes
+
+Upon completion, students will be able to:
+
+1. Demonstrate an overview of gender and diversity theories
+2. Understand how bias manifests in different AI system types (rule-based, predictive, generative)
+3. Design and implement bias detection methodologies for LLMs
+4. Gain practical experience with LLM-assisted development tools (coding agents)
+5. Deepen their skills in independent project planning and implementation
+
+---
+
+## Grading
+
+| Component | Weight | Assessed by |
+|-----------|--------|-------------|
+| **Project** (GitHub repo: code + presentation, Tasks 1-3) | 50% | Theory integration, technical implementation, creativity |
+| **Promptotyping documentation** in GitHub repo (Task 4) | 30% | Completeness, regenerability, reflection |
+| **Participation** | 20% | Attendance (min. 80%), active contribution, peer feedback |
+
+Instead of a written reflection: Final Promptotyping docs in the GitHub repo serve as documentation AND LLM knowledge base. Core principle: **The artifact must be regenerable from the docs.** Theory integration counts more than code complexity. Details in [PROJECT.md](PROJECT.md).
+
+---
+
+## Prerequisites
+
+> Basic programming skills in at least one language (ideally Python) and willingness to work with LLM-assisted development tools (coding agents). No prior knowledge of Machine Learning or Gender Studies required.
+
+---
+
+## Teaching Methods
+
+| Method | Purpose | Session |
+|--------|---------|---------|
+| **Input/lecture** | Theoretical foundations (Part 1), technical introduction (Part 2) | 1–3 |
+| **Text discussion** | Selected texts from Gender Studies and STS | 2 |
+| **Reflection exercises** | Individual and group reflection on gender/diversity | 1, 3 |
+| **Project work** | Independent development of the bias benchmark tool | 3–6 |
+| **Peer feedback** | Mutual feedback on project progress | 5 |
+| **Presentations** | Final project presentations | 6 |
+
+---
+
+## Detailed Content
+
+### Part 1: Gender and Diversity Theories
+
+- Brief history of Gender and Diversity Studies
+- De/constructivist approaches
+- Definition of bias and discrimination
+- Intersectionality
+- Social inequalities
+- Texts from Science and Technology Studies
+- I-Methodology (Bath 2011): How developers set their own perspective as the standard
+
+### Part 2: AI and Bias
+
+- **AI types and their bias manifestations:**
+  - Rule-based: Normative thresholds and categories
+  - Predictive: Biased training data and labels
+  - Generative: Stereotypical patterns in training corpora
+
+- **Empirical findings on gender bias in LLMs** (UNESCO/IRCAI 2024, Kotek et al. 2023):
+  - Stereotypical occupational associations
+  - "Siloing effect" in gender assignments
+  - Effects of post-training on bias
+
+- **Bias detection methods:**
+  - Contrastive prompts
+  - Systematic output monitoring
+  - Audit frameworks (HELM, DecodingTrust)
+  - Prompt variant method (Base/Neutral/Diversity-Aware)
+
+- **Preliminary findings from FAIR-SW-Bench:**
+  - Diversity Instruction Paradox: Diversity-aware prompts can amplify bias
+  - Utility-Safety Trade-off: Bias reduction vs. response quality
+  - Google Gemini: Complete blocking of social work prompts in pilot testing
+  - EU AI Act: AI systems in essential public services as high-risk applications from August 2026
+
+- **Context Engineering instead of Prompt Engineering:**
+  - Curate context rather than craft role prompts
+  - Empirical evidence against persona prompting ([Kim et al., ICLR 2025](https://arxiv.org/abs/2408.08631))
+  - Relevance for students' tool design
+
+- **Human-in-the-Loop and AI Literacy:**
+  - Critical evaluation of AI outputs
+  - Keeping decision-making authority with professionals
+
+---
+
+## Research Context
 
 ### AI@youthwork
 
-Die LV basiert auf Erkenntnissen des Forschungsprojekts **AI@youthwork** (Universität Graz, 2024–2025), das KI-Nutzung in der Kinder- und Jugendarbeit aus Gender- und Diversitätsperspektive untersucht hat.
+The course builds on findings from the research project **AI@youthwork** (University of Graz, 2024–2025), which investigated AI use in youth work from a gender and diversity perspective.
 
-**Relevante Publikation:**
+**Relevant publication:**
 > Sackl-Sharif, S., Klinger, S., Pollin, C. & Steiner, C. (2025). Zur ambivalenten Nutzung von Künstlicher Intelligenz in der Kinder- und Jugendarbeit aus einer geschlechter- und diversitätsreflektierenden Perspektive.
 
 ### SocialAI (Laura Bassi 4.0)
 
-Die LV steht im Kontext des FFG-geförderten Projekts **SocialAI** (Laura Bassi 4.0, #62981337, 02/2026–01/2029), das ebenfalls Bias in KI-Systemen für soziale Kontexte untersucht.
+The course is part of the context of the FFG-funded project **SocialAI** (Laura Bassi 4.0, #62981337, 02/2026–01/2029), which also investigates bias in AI systems for social contexts.
 
 ### FAIR-SW-Bench
 
-Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konzeptuelle Inspiration für die studentischen Projekte:
+The **FAIR-SW-Bench** framework (v2.1.0), developed by DHCraft, serves as conceptual inspiration for the student projects:
 
-- Multilinguales Evaluierungssystem (DE/EN)
-- LLM-as-Judge Architektur mit Cross-Provider-Validierung
-- 50 Testszenarien für sozialarbeiterische Kontexte
-- 5 Bias-Dimensionen: Stereotyping, Agency Attribution, Paternalistic Language, Cultural Assumptions, Problem Framing
-- Prompt-Varianten-Konzept (Base/Neutral/Diversity-Aware)
+- Multilingual evaluation system (DE/EN)
+- LLM-as-Judge architecture with cross-provider validation
+- 50 test scenarios for social work contexts
+- 5 bias dimensions: Stereotyping, Agency Attribution, Paternalistic Language, Cultural Assumptions, Problem Framing
+- Prompt variant method (Base/Neutral/Diversity-Aware)
 
-**Vorläufige Befunde der Pilotstudie (2025):**
+**Preliminary pilot study findings (2025):**
 
-- **Diversitäts-Instruktions-Paradox**: Diversity-aware Prompts produzierten in mehreren Fällen höhere Bias-Scores als neutrale Varianten, besonders bei Agency Attribution und Problem Framing. Mögliche Erklärung: Explizite Diversitätshinweise aktivieren latente Stereotype im Modell (Salienz-Effekt).
-- **Utility-Safety-Trade-off**: Bias-Reduktion geht möglicherweise auf Kosten der Antwortqualität. Diversity-aware Varianten zeigten niedrigere Bias-Scores (Ø 3.8) aber auch reduzierte Helpfulness-Werte (Ø 4.1) gegenüber Base-Varianten (Bias: 6.2, Helpfulness: 8.1).
-- **Google Gemini blockierte im Pilottest alle Social-Work-Prompts** durch Safety-Filter, die sich nicht deaktivieren lassen.
-- **Methodische Einschränkung**: Pilotstudie mit 30/50 Prompts, nur ein Provider (Anthropic), englische Judge-Prompts für deutsche Outputs, keine Human-Annotation. Ergebnisse erfordern Validierung.
+- **Diversity Instruction Paradox**: Diversity-aware prompts produced higher bias scores in several cases than neutral variants, especially for Agency Attribution and Problem Framing. Possible explanation: Explicit diversity cues activate latent stereotypes in the model (salience effect).
+- **Utility-Safety Trade-off**: Bias reduction may come at the cost of response quality. Diversity-aware variants showed lower bias scores (avg. 3.8) but also reduced helpfulness scores (avg. 4.1) compared to base variants (bias: 6.2, helpfulness: 8.1).
+- **Google Gemini blocked all social work prompts** in pilot testing through safety filters that cannot be disabled.
+- **Methodological limitation**: Pilot study with 30/50 prompts, single provider (Anthropic), English judge prompts for German outputs, no human annotation. Results require validation.
 
-Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgangspunkt für eigene Untersuchungen nutzen können.
-
----
-
-## Kontakt und Organisation
-
-| Rolle | Person | Kontakt |
-|-------|--------|---------|
-| Hauptlehrende | Susanne Sackl-Sharif | Universität Graz |
-| Gastbeitrag KI & Bias | Christian Steiner | Digital Humanities Craft OG |
-| LV-Koordination Klagenfurt | Noreen | Universität Klagenfurt |
+These findings will be presented in Session 3 so students can use them as a starting point for their own investigations.
 
 ---
 
-## Offene Punkte
+## Contacts
 
-- [ ] Terminänderung an Noreen kommunizieren (11.05. als neuer Termin EH 4)
-- [ ] Textauswahl für Diskussionen in Teil 1 finalisieren
-- [x] ~~FAIR-SW-Bench Konzeptdokumentation für Studierende aufbereiten~~ – in PROJECT.md integriert (Beispiel-Prompts, Befunde, Dimensionen)
-- [ ] Moodle-Kurs einrichten
-- [x] ~~API-Kosten und -Zugang für Studierende klären~~ – gelöst: Ollama (lokale Modelle) + Free-Tier Web-Interfaces
-- [x] ~~Syllabus mit aktuellen Änderungen abgleichen~~ – SYLLABUS.md erstellt, Promptotyping-Workflow integriert
-- [x] ~~GitHub Pages für Docsify-Website aktivieren~~ – erledigt
-- [x] ~~Docsify-Website committen und pushen~~ – erledigt, Setup Guide ergänzt
+| Role | Person | Contact |
+|------|--------|---------|
+| Main lecturer | Susanne Sackl-Sharif | University of Graz |
+| Guest: AI & Bias | Christian Steiner | [christian.steiner@dhcraft.org](mailto:christian.steiner@dhcraft.org), [DHCraft OG](https://dhcraft.org) |
+| Coordination Klagenfurt | Noreen | University of Klagenfurt |
 
 ---
 
-## Änderungshistorie
+## Open Items
 
-| Datum | Änderung |
-|-------|----------|
-| März 2026 | Erste Version erstellt |
-| März 2026 | Termine aus Campus-System übernommen; EH 2 gekürzt (-2h), EH 4 als Q&A-Session neu eingefügt (+2h am 11.05.) |
-| März 2026 | Überarbeitung: Projektauftrag in EH 2, Gastbeitrag in EH 3 zum Projektstart, Peer-Feedback in EH 5, Meilensteine und Bewertungsgewichtung ergänzt, Minimalanforderungen definiert |
-| März 2026 | Feedbackrunde: Bewertung vereinfacht (50/30/20), Option B (Datensatz) entfernt, Ollama als Hauptempfehlung, Teams max. 3, schriftliche Zusammenfassung entfällt |
-| März 2026 | FAIR-SW-Bench Befunde integriert: Diversitäts-Instruktions-Paradox, Utility-Safety-Trade-off, Gemini-Blockierung, EU AI Act Kontext, Context Engineering, konkrete Beispiel-Prompts |
-| März 2026 | Syllabus-Abgleich: EH 2 auf 18:30 korrigiert, Task 1 (Literatur bis 22.04.) eingefügt, Konzept-Deadline auf 06.05., Promptotyping-Workflow als Konzept+Doku-Format, Sprache auf Englisch, Bewertung 50/30/20 (Projekt/Promptotyping-Docs/Teilnahme) |
+- [ ] Communicate schedule change to Noreen (11.05. as new date for Session 4)
+- [ ] Finalize text selection for discussions in Part 1
+- [ ] Set up Moodle course
+- [x] ~~FAIR-SW-Bench concept documentation for students~~ – integrated in PROJECT.md
+- [x] ~~Clarify API costs and access for students~~ – solved: Ollama + free-tier web interfaces
+- [x] ~~Align syllabus with current changes~~ – SYLLABUS.md created
+- [x] ~~Activate GitHub Pages for Docsify website~~ – done
+- [x] ~~Docsify website commit and push~~ – done, Setup Guide added
+- [x] ~~Group work decision~~ – changed to individual work only
 
 ---
 
-*Erstellt: März 2026*
-*Status: Planungsphase*
+## Change History
+
+| Date | Change |
+|------|--------|
+| Mar 2026 | Initial version |
+| Mar 2026 | Dates from campus system; Session 2 shortened (-2h), Session 4 added as Q&A (+2h on 11.05.) |
+| Mar 2026 | Restructured: Project brief in Session 2, guest contribution in Session 3, peer feedback in Session 5, milestones and grading weights added |
+| Mar 2026 | Feedback round: Grading simplified (50/30/20), Option B (dataset) removed, Ollama as main recommendation |
+| Mar 2026 | FAIR-SW-Bench findings integrated: Diversity Instruction Paradox, Utility-Safety Trade-off, Gemini blocking, EU AI Act context, Context Engineering |
+| Mar 2026 | Syllabus alignment: Session 2 to 18:30, Task 1 (literature due 22.04.), concept deadline 06.05., Promptotyping workflow, language set to English, grading 50/30/20 |
+| Mar 2026 | Setup Guide, Copilot update, review fixes, all docs translated to English, individual work only |
+
+---
+
+*Created: March 2026*
+*Status: Active*
