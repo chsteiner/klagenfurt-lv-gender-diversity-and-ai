@@ -223,7 +223,7 @@ For your project: When designing system prompts for your tool, experiment with t
 
 | Aspect | Specification |
 |--------|--------------|
-| **Teamwork** | Your choice: individual or team (max. 3 people). Group formation between EH 2 and EH 3, report in EH 3. |
+| **Teamwork** | Individual work only. |
 | **Version Control** | [Git](https://git-scm.com/) + [GitHub](https://github.com/). See the [Setup Guide](https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/#/setup) for installation. |
 | **Coding Agents** | You may and should use AI coding agents. Free option: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Use Agent Mode: describe what you need, and the agent writes the code. If you already have a paid subscription to [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Codex](https://openai.com/index/introducing-codex/), [Cursor](https://www.cursor.com/), or another agent, use that instead. |
 | **Programming Language** | Your choice. Python recommended for easy API integration. |
@@ -253,7 +253,7 @@ The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skil
 | Deadline | What | Submission |
 |----------|------|------------|
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
-| **EH 3 (27.04.)** | Report group composition, present topic | In session |
+| **EH 3 (27.04.)** | Present topic | In session |
 | **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
 | **03.06.** | **Task 3: Implementation** – Prototype ready | Prepare short demo for EH 5 |
 | **24.06.** | **Task 3: Implementation** – Final presentation (10 min + 5 min discussion) + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |

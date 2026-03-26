@@ -28,7 +28,7 @@
 - Which **domain** (social work, education, medicine, law, everyday life, ...)
 - Which **bias dimensions** (see [Theory](theorie.md))
 - Which **technical approach** (see below)
-- Whether you work **alone or in a team** (max. 3 people)
+- How creative you get
 
 ## Possible Approaches
 

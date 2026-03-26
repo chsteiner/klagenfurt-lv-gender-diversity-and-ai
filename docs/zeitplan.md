@@ -13,7 +13,7 @@
 
 | Session | Date | Time | Format | Room | Content |
 |---------|------|------|--------|------|---------|
-| **3** | Mon 27.04. | 08:15–11:30 | Online | – | AI & Bias (guest C. Steiner), report groups |
+| **3** | Mon 27.04. | 08:15–11:30 | Online | – | AI & Bias (guest C. Steiner), present topics |
 | **4** | Mon 11.05. | 08:15–09:45 | Online | – | Discuss concepts, Q&A |
 | **5** | Wed 03.06. | 08:15–11:30 | Online | – | Peer feedback on prototypes |
 | **6** | Wed 24.06. | 10:00–16:45 | Presence | C.0.16 | **Final presentations** |
@@ -23,7 +23,7 @@
 | Deadline | What | Submission |
 |----------|------|------------|
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
-| **EH 3 (27.04.)** | Report group composition, present topic | In session |
+| **EH 3 (27.04.)** | Present topic | In session |
 | **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
 | **03.06.** | **Task 3: Implementation** – Prototype ready | Prepare short demo for EH 5 |
 | **24.06.** | **Task 3: Implementation** – Final presentation + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |

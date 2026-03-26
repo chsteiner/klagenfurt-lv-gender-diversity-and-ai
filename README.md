@@ -25,7 +25,7 @@ Die LV gliedert sich in zwei inhaltliche Teile:
 ### Teil 1: Gender- und Diversitätsgrundlagen (EH 1–2)
 *Verantwortlich: Susanne Sackl-Sharif*
 
-Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten Grundlagenwissen zu Gender und Diversität, um später Bias in KI-Systemen erkennen und analysieren zu können. Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt und die Gruppenbildung angestoßen.
+Theoretische Einführung ohne direkten KI-Bezug. Die Studierenden erhalten Grundlagenwissen zu Gender und Diversität, um später Bias in KI-Systemen erkennen und analysieren zu können. Fokus auf I-Methodology (Bath 2011) als Brücke zur Informatik: Wie Entwickler:innen eigene Perspektiven als impliziten Standard setzen. Am Ende von EH 2 wird der Projektauftrag vorgestellt.
 
 ### Teil 2: Gender, Diversität und KI (EH 3–6)
 *Verantwortlich: Susanne Sackl-Sharif mit Gastbeiträgen von Christian Steiner (DHCraft)*
@@ -41,15 +41,15 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
 | **1** | Di 17.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | LV-Einführung, Inputs zu Gender und Diversität, Reflexionsübung |
-| **2** | Do 26.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen, Gruppenbildung anstoßen** |
+| **2** | Do 26.03.2026 | 13:30–18:30 | Präsenz | C.0.16 | Gender und Diversität Vertiefung; Diskussion ausgewählter Texte; **Projektauftrag vorstellen** |
 
-*Zwischen EH 2 und EH 3 (26.03.–27.04.): Gruppen finden sich selbstständig, Texte lesen, Task 1 (Literaturübersicht bis 22.04.)*
+*Zwischen EH 2 und EH 3 (26.03.–27.04.): Texte lesen, Task 1 (Literaturübersicht bis 22.04.)*
 
 ### Teil 2: Gender und KI
 
 | EH | Datum | Zeit | Format | Raum | Inhalte |
 |----|-------|------|--------|------|---------|
-| **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Gruppenzusammensetzung mitteilen; Q&A zum Projekt |
+| **3** | Mo 27.04.2026 | 08:15–11:30 | Online | – | **Gastbeitrag Christian Steiner**: KI-Typen, Bias-Manifestationen, Methoden der Bias-Detektion; Thema vorstellen; Q&A zum Projekt |
 | **4** | Mo 11.05.2026 | 08:15–09:45 | Online | – | Konzeptskizzen besprechen; Q&A zur Projektarbeit (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
 | **5** | Mi 03.06.2026 | 08:15–11:30 | Online | – | Peer-Feedback zu Projektfortschritten (Moderation: Christian Steiner, Susanne Sackl-Sharif) |
 | **6** | Mi 24.06.2026 | 10:00–16:45 | Präsenz | C.0.16 | Abschlusspräsentationen der Projekte |
@@ -64,7 +64,7 @@ Anwendung der theoretischen Grundlagen auf KI-Systeme. Christian Steiner liefert
 
 ### Begründung der Einheitenplanung
 
-Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um Gruppen zu bilden und sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** zum Projektstart. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
+Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Studierende die einmonatige Pause bis EH 3 nutzen können, um sich erste Gedanken zu machen. Die **technische Einführung** (Gastbeitrag Christian Steiner) erfolgt in **EH 3 (27.04.)** zum Projektstart. EH 4 dient der Besprechung der Konzeptskizzen, EH 5 als **Peer-Feedback-Session** drei Wochen vor der Abschlusspräsentation.
 
 ---
 
@@ -75,7 +75,7 @@ Der **Projektauftrag** wird am Ende von **EH 2 (26.03.)** vorgestellt, damit Stu
 | Zeitpunkt | Meilenstein | Abgabe |
 |-----------|-------------|--------|
 | 22.04. | **Task 1: Literaturübersicht**: Thema, 2-3 Quellen, 1 Seite | .md auf Moodle |
-| EH 3 (27.04.) | **Gruppenmitteilung**: Teamzusammensetzung bekanntgeben | In der Einheit |
+| EH 3 (27.04.) | **Thema vorstellen** | In der Einheit |
 | 06.05. | **Task 2: Konzept (Promptotyping Docs)**: knowledge.md, requirements.md, design.md, journal.md | Gezippte .md auf Moodle |
 | Vor EH 5 (03.06.) | **Prototyp**: Erster lauffähiger Stand (auch minimal) | Kurze Demo vorbereiten |
 | EH 6 (24.06.) | **Abschlusspräsentation + Abgabe**: Fertiges Tool, finale Promptotyping Docs | GitHub-Repo (Code + Promptotyping Docs) |
@@ -90,7 +90,7 @@ Zwischen den Einheiten steht ein **Moodle-Forum** für Fragen zur Projektarbeit 
 
 Die Studierenden entwickeln ein eigenes Tool zur Messung von Bias in LLM-generierten Antworten, inspiriert vom FAIR-SW-Bench Framework (Konzeptbeschreibung, nicht Code). Der vollständige Projektauftrag für die Studierenden steht in [PROJECT.md](PROJECT.md).
 
-**Kurzfassung:** 10+ eigene Prompts, 2+ Bias-Dimensionen, 1+ LLM, dokumentierte Methodik, funktionierender Code. Themenfeld, Ansatz und technische Umsetzung sind frei wählbar. LLM-Zugang kostenlos über Ollama (lokale Modelle) oder Free-Tier Web-Interfaces. Abgabe als GitHub-Repo. Teams max. 3 Personen.
+**Kurzfassung:** 10+ eigene Prompts, 2+ Bias-Dimensionen, 1+ LLM, dokumentierte Methodik, funktionierender Code. Themenfeld, Ansatz und technische Umsetzung sind frei wählbar. LLM-Zugang kostenlos über Ollama (lokale Modelle) oder Free-Tier Web-Interfaces. Abgabe als GitHub-Repo. Einzelarbeit.
 
 ### Was die Studierenden erhalten
 
