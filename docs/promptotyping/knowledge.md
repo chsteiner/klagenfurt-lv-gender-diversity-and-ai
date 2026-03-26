@@ -21,7 +21,7 @@ Alle student-facing Dokumente sind auf **Englisch** (LV-Sprache). Interne Planun
 | Projektauftrag | `PROJECT.md` | Bias-Benchmark-Tool Aufgabe, Ansätze, Dimensionen, Ollama, Meilensteine, Bewertung | → Seite "Project Brief" (Kernseite) |
 | LV-Planung | `README.md` | Zeitplan, Prüfungsmodalitäten, Kontakt, Forschungskontext | → Seiten "Timeline", "Home" (Auszüge) |
 | Syllabus | `SYLLABUS.md` | Offizieller Syllabus mit Tasks, Learning Outcomes, Prerequisites | → Link von Website, Moodle |
-| Theorie-Dokument | `GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md` | Gender-Theorie für STEM, I-Methodology, Intersektionalität, Feminist STS, Frameworks, Case Studies, Didaktik | → Seite "Theory" (gekürzt, ohne didaktische Teile B-E) |
+| Theorie-Dokument | ~~`GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md`~~ *(aus Repo entfernt, Inhalte in `docs/theorie.md` und `docs/fair-sw-bench.md` integriert)* | Gender-Theorie für STEM, I-Methodology, Intersektionalität, Feminist STS, Frameworks, Case Studies, Didaktik | → Seite "Theory" (gekürzt, ohne didaktische Teile B-E) |
 | FAIR-SW-Bench (Vault) | Obsidian-Notizen | Framework-Architektur, 50 Testszenarien, Pilotstudie, Paradox, Context Engineering | → Seite "FAIR-SW-Bench" |
 
 ## Docsify-Spezifika

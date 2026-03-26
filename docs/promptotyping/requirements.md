@@ -81,7 +81,7 @@ Als Studierende:r will ich auf einen Blick sehen, wann welche Einheit stattfinde
 ### US-4.1: Theoretische Grundlagen für Informatiker:innen
 Als Studierende:r will ich die wichtigsten Gender/Diversity-Theorien kompakt nachlesen, damit ich sie für mein Projekt nutzen kann.
 
-**Quelle:** `GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md` (Teil A + Teil F)
+**Quelle:** ~~`GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md`~~ *(aus Repo entfernt, Inhalte in `docs/theorie.md` und `docs/fair-sw-bench.md` integriert)*
 **Was rein:**
 - A.1: Technik ist nicht neutral (Winner)
 - A.2: I-Methodology (Bath, Oudshoorn)
@@ -115,7 +115,7 @@ Als Studierende:r will ich verstehen, was FAIR-SW-Bench ist und was wir daraus l
 - Gemini-Blockierung als Warnung
 - Methodische Einschränkungen (transparent)
 
-**Quellen:** PROJECT.md (Auszüge), GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil F), Obsidian-Vault FAIR-SW-Bench Notizen
+**Quellen:** PROJECT.md (Auszüge), ~~GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md~~ *(Teil F, integriert in `docs/fair-sw-bench.md`)*, Obsidian-Vault FAIR-SW-Bench Notizen
 
 **Erfolgskriterium:** Studierende verstehen das Konzept ohne den Code gesehen zu haben.
 

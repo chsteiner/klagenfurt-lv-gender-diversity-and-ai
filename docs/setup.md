@@ -1,6 +1,6 @@
 # Setup Guide
 
-> Complete these steps **before Session 1 (17.03.2026)**. Estimated time: 30–60 minutes.
+> Complete these steps **as soon as possible**. Estimated time: 30–60 minutes.
 
 > **Prerequisites:** This course assumes basic programming skills in at least one language (ideally Python). No prior knowledge of Machine Learning or Gender Studies required. See the [Syllabus](https://github.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/blob/main/SYLLABUS.md) for details.
 
@@ -44,10 +44,10 @@ You will use Python to send prompts to LLMs and analyze responses. Basic scripti
 GitHub hosts your project repository. GitHub Copilot is an AI coding agent built into VS Code. It can write code, edit multiple files, and run terminal commands for you.
 
 1. Create a GitHub account: [github.com](https://github.com/)
-2. Apply for the **Student Developer Pack**: [education.github.com/pack](https://education.github.com/pack) (gives you unlimited Copilot, including Agent Mode)
+2. Apply for the **Student Developer Pack**: [education.github.com/pack](https://education.github.com/pack) (gives you unlimited Copilot usage)
 3. In VS Code: click the **Copilot icon** in the bottom-right status bar, select **"Use AI Features"**, and sign in with your GitHub account
 
-**Verify:** Press `Ctrl+Alt+I` (or `Cmd+Alt+I` on Mac) to open the Copilot Chat panel. Type "Hello, what can you do?" and confirm you get a response.
+**Verify:** Press `Ctrl+Alt+I` (Mac: `Ctrl+Cmd+I`) to open the Copilot Chat panel. If the shortcut does not work, press `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`), type "Copilot Chat" and select it. Type "Hello, what can you do?" and confirm you get a response.
 
 > **Note:** The Student Developer Pack can take 1–7 days for approval. Apply now. Even without it, every GitHub account includes **Copilot Free** (50 chat messages/month), so you can sign in and verify immediately. You do not need Copilot for Session 1; the project phase starts in Session 3 (27.04.).
 
@@ -80,7 +80,7 @@ You do not need this for Session 1. This section explains how you will work duri
 
 **Agent Mode** lets you describe tasks in natural language, and Copilot writes the code for you:
 
-1. Open the Copilot Chat panel (`Ctrl+Alt+I`)
+1. Open the Copilot Chat panel (`Ctrl+Alt+I`, Mac: `Ctrl+Cmd+I`)
 2. In the dropdown at the top of the chat panel, select **"Agent"**
 3. Describe what you want, e.g.: "Create a Python script that sends a prompt to Ollama at localhost:11434 and saves the response to a CSV file"
 4. Copilot will write the code, create files, run commands in the terminal, and fix errors. You review and approve each step.

@@ -38,9 +38,9 @@ docs/
 
 ### D-3: Inhalt aus bestehenden .md-Dateien adaptieren, nicht kopieren
 
-Die Docsify-Seiten sind **eigenständige Dokumente**, die Inhalte aus den Quelldateien (PROJECT.md, README.md, GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md) zusammenführen und für die Web-Darstellung optimieren. Keine 1:1-Kopien, sondern kuratierte Auswahl.
+Die Docsify-Seiten sind **eigenständige Dokumente**, die Inhalte aus den Quelldateien (PROJECT.md, README.md, ~~GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md~~ – aus Repo entfernt, Inhalte integriert) zusammenführen und für die Web-Darstellung optimieren. Keine 1:1-Kopien, sondern kuratierte Auswahl.
 
-Ausnahme: `projektauftrag.md` ist weitgehend identisch mit `PROJECT.md`, da die Studierenden den gleichen Text an beiden Orten erwarten.
+Ausnahme: `projektauftrag.md` ist eine kompakte Zusammenfassung von `PROJECT.md` mit Link zum vollständigen Text.
 
 ### D-4: Docsify-Theme und Styling
 
@@ -81,6 +81,6 @@ Die Sidebar reicht für 7 Seiten. Eine zusätzliche Topbar wäre Noise.
 | `setup.md` | Eigener Text | – | Step-by-Step: VS Code, Git, Python, Copilot, Ollama |
 | `projektauftrag.md` | PROJECT.md | – | Kompakte Version, Link zu PROJECT.md |
 | `zeitplan.md` | README.md (Zeitplan, Meilensteine, Prüfung) | PROJECT.md (Meilensteine) | Zusammenführung |
-| `theorie.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil A) | – | Gekürzt, ohne Didaktik |
-| `fair-sw-bench.md` | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil F) | PROJECT.md, Vault-Notizen | Zusammenführung + Beispiel-Prompts |
-| `ressourcen.md` | PROJECT.md (LLM-Zugang, Context Engineering) | GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md (Teil D Schlüsseltexte) | Zusammenführung |
+| `theorie.md` | ~~GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md~~ (Teil A, integriert) | – | Gekürzt, ohne Didaktik |
+| `fair-sw-bench.md` | ~~GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md~~ (Teil F, integriert) | PROJECT.md, Vault-Notizen | Zusammenführung + Beispiel-Prompts |
+| `ressourcen.md` | PROJECT.md (LLM-Zugang, Context Engineering) | ~~GENDER-DIVERSITY-FUER-TECHNIKERINNEN.md~~ (Teil D, integriert) | Zusammenführung |

@@ -255,8 +255,8 @@ The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skil
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
 | **EH 3 (27.04.)** | Report group composition, present topic | In session |
 | **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
-| **03.06.** | **Task 3: Prototype** – First working version | Prepare short demo for EH 5 |
-| **24.06.** | **Task 3: Final presentation** (10 min + 5 min discussion) + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |
+| **03.06.** | **Task 3: Implementation** – Prototype ready | Prepare short demo for EH 5 |
+| **24.06.** | **Task 3: Implementation** – Final presentation (10 min + 5 min discussion) + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |
 
 ---
 
