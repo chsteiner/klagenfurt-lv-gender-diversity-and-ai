@@ -231,33 +231,4 @@ These findings will be presented in Session 3 so students can use them as a star
 
 ---
 
-## Open Items
-
-- [ ] Communicate schedule change to Noreen (11.05. as new date for Session 4)
-- [ ] Finalize text selection for discussions in Part 1
-- [ ] Set up Moodle course
-- [x] ~~FAIR-SW-Bench concept documentation for students~~ – integrated in PROJECT.md
-- [x] ~~Clarify API costs and access for students~~ – solved: Ollama + free-tier web interfaces
-- [x] ~~Align syllabus with current changes~~ – SYLLABUS.md created
-- [x] ~~Activate GitHub Pages for Docsify website~~ – done
-- [x] ~~Docsify website commit and push~~ – done, Setup Guide added
-- [x] ~~Group work decision~~ – changed to individual work only
-
----
-
-## Change History
-
-| Date | Change |
-|------|--------|
-| Mar 2026 | Initial version |
-| Mar 2026 | Dates from campus system; Session 2 shortened (-2h), Session 4 added as Q&A (+2h on 11.05.) |
-| Mar 2026 | Restructured: Project brief in Session 2, guest contribution in Session 3, peer feedback in Session 5, milestones and grading weights added |
-| Mar 2026 | Feedback round: Grading simplified (50/30/20), Option B (dataset) removed, Ollama as main recommendation |
-| Mar 2026 | FAIR-SW-Bench findings integrated: Diversity Instruction Paradox, Utility-Safety Trade-off, Gemini blocking, EU AI Act context, Context Engineering |
-| Mar 2026 | Syllabus alignment: Session 2 to 18:30, Task 1 (literature due 22.04.), concept deadline 06.05., Promptotyping workflow, language set to English, grading 50/30/20 |
-| Mar 2026 | Setup Guide, Copilot update, review fixes, all docs translated to English, individual work only |
-
----
-
-*Created: March 2026*
-*Status: Active*
+*University of Klagenfurt, SS2026*
