@@ -178,8 +178,8 @@ Statt schriftlicher Reflexion: Finale Promptotyping Docs im GitHub-Repo dienen a
 - **Vorläufige Befunde aus FAIR-SW-Bench**:
   - Diversitäts-Instruktions-Paradox: Diversity-aware Prompts können Bias verstärken
   - Utility-Safety-Trade-off: Bias-Reduktion vs. Antwortqualität
-  - Google Gemini: 100% Blockierung von Social-Work-Prompts
-  - EU AI Act: Sozialarbeit als Hochrisikoanwendung ab August 2026
+  - Google Gemini: Vollständige Blockierung von Social-Work-Prompts im Pilottest
+  - EU AI Act: KI-Systeme im Bereich wesentlicher öffentlicher Dienstleistungen als Hochrisikoanwendung ab August 2026
 
 - **Context Engineering statt Prompt Engineering**:
   - Kontext kuratieren statt Rollen-Prompts formulieren
@@ -219,7 +219,7 @@ Das von DHCraft entwickelte Framework **FAIR-SW-Bench** (v2.1.0) dient als konze
 
 - **Diversitäts-Instruktions-Paradox**: Diversity-aware Prompts produzierten in mehreren Fällen höhere Bias-Scores als neutrale Varianten, besonders bei Agency Attribution und Problem Framing. Mögliche Erklärung: Explizite Diversitätshinweise aktivieren latente Stereotype im Modell (Salienz-Effekt).
 - **Utility-Safety-Trade-off**: Bias-Reduktion geht möglicherweise auf Kosten der Antwortqualität. Diversity-aware Varianten zeigten niedrigere Bias-Scores (Ø 3.8) aber auch reduzierte Helpfulness-Werte (Ø 4.1) gegenüber Base-Varianten (Bias: 6.2, Helpfulness: 8.1).
-- **Google Gemini blockiert 100%** aller Social-Work-Prompts durch undokumentierte Safety-Filter, die sich nicht deaktivieren lassen.
+- **Google Gemini blockierte im Pilottest alle Social-Work-Prompts** durch Safety-Filter, die sich nicht deaktivieren lassen.
 - **Methodische Einschränkung**: Pilotstudie mit 30/50 Prompts, nur ein Provider (Anthropic), englische Judge-Prompts für deutsche Outputs, keine Human-Annotation. Ergebnisse erfordern Validierung.
 
 Diese Befunde werden in EH 3 vorgestellt, damit die Studierenden sie als Ausgangspunkt für eigene Untersuchungen nutzen können.

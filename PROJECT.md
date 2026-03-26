@@ -11,7 +11,7 @@
 **Specifically:** You develop your own test scenarios (prompts), send them to an LLM, and systematically analyze whether the responses are biased, stereotypical, or discriminatory. You apply the gender and diversity theory from Part 1 of the course in practice.
 
 **What you submit:**
-- GitHub repository with working code and documentation (Promptotyping docs)
+- GitHub repository with working code and documentation ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)
 - At least 10 custom prompts, 2 bias dimensions, 1 LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
@@ -25,7 +25,7 @@
 
 ## Why This Matters
 
-Starting **August 2026**, the **EU AI Act** classifies systems in social work as **high-risk applications** (Article 6, Annex III). Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are almost entirely missing. Your project addresses exactly this gap.
+Starting **August 2026**, the [EU AI Act](https://artificialintelligenceact.eu/) classifies AI systems in areas like access to essential public services and benefits as **high-risk applications** (Article 6, [Annex III](https://artificialintelligenceact.eu/annex/3/)) – categories that directly affect social work practice. Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are almost entirely missing. Your project addresses exactly this gap.
 
 ---
 
@@ -41,7 +41,7 @@ Your goal: Develop your own **bias benchmark tool** that makes these biases meas
 
 ### A Surprising Research Finding
 
-Current research (DHCraft, FAIR-SW-Bench pilot study 2025) reveals a **Diversity Instruction Paradox**: Prompts that explicitly reference diversity and inclusion can produce *higher* bias scores in LLMs than neutral phrasings. The hypothesis: Explicit diversity cues activate latent stereotypes in the model rather than suppressing them.
+Current research (DHCraft, [FAIR-SW-Bench](docs/fair-sw-bench.md) pilot study 2025) reveals a **Diversity Instruction Paradox**: Prompts that explicitly reference diversity and inclusion can produce *higher* bias scores in LLMs than neutral phrasings. The hypothesis: Explicit diversity cues activate latent stereotypes in the model rather than suppressing them.
 
 This means: Good intentions don't guarantee good results. Whether and how this effect manifests in your chosen domain is something you can investigate yourself.
 
@@ -55,7 +55,7 @@ This means: Good intentions don't guarantee good results. Whether and how this e
 2. **At least 2 bias dimensions** that you systematically evaluate
 3. **At least 1 LLM** that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way and not another?
-5. **Working code** with Promptotyping docs
+5. **Working code** with [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
 
 ### What We Don't Prescribe
 
@@ -76,7 +76,7 @@ Send the same scenario with different demographic markers to an LLM and compare 
 
 *Example: How does the counseling recommendation differ for a "Turkish mother" vs. a "person" vs. an "Austrian mother"?*
 
-### Prompt Variant Method (inspired by FAIR-SW-Bench)
+### Prompt Variant Method (inspired by [FAIR-SW-Bench](docs/fair-sw-bench.md))
 
 Test each prompt in three variants:
 - **Base**: With explicit demographic markers (gender, origin, age, ...)
@@ -85,7 +85,7 @@ Test each prompt in three variants:
 
 The difference in results shows how strongly demographic markers skew the response.
 
-**Example: Child welfare assessment** (from FAIR-SW-Bench):
+**Example: Child welfare assessment** (from [FAIR-SW-Bench](docs/fair-sw-bench.md)):
 
 ```
 Base:       "Single father, welfare recipient, 2-room apartment with two
@@ -146,7 +146,7 @@ Fewer prompts, deeper analysis: Identify and categorize linguistic patterns, wor
 
 ### Utility-Safety Trade-off
 
-Investigate whether bias reduction comes at the cost of usefulness. Initial data from FAIR-SW-Bench suggests: Diversity-aware prompts produce fewer stereotypes but also vaguer, less action-oriented responses. A compelling question for practice: What good is a bias-free answer if it recommends nothing concrete?
+Investigate whether bias reduction comes at the cost of usefulness. Initial data from [FAIR-SW-Bench](docs/fair-sw-bench.md) suggests: Diversity-aware prompts produce fewer stereotypes but also vaguer, less action-oriented responses. A compelling question for practice: What good is a bias-free answer if it recommends nothing concrete?
 
 ### Your Own Approach
 
@@ -156,7 +156,7 @@ You have a different idea? Bring it on. Maybe you want to investigate how LLMs r
 
 ## Bias Dimensions: Orientation
 
-The FAIR-SW-Bench framework uses five dimensions – you can adopt, adapt, or define your own:
+The [FAIR-SW-Bench](docs/fair-sw-bench.md) framework uses five dimensions – you can adopt, adapt, or define your own:
 
 | Dimension | What is measured? | Example |
 |-----------|------------------|---------|
@@ -205,7 +205,7 @@ If Ollama doesn't work, you can manually enter prompts in free chat interfaces a
 
 ### Known Limitation: Google Gemini
 
-The Google Gemini API blocks **100% of all social work prompts** through built-in safety filters that cannot be disabled. This affects scenarios like suicidality, domestic violence, or child endangerment – precisely the topics where bias analysis is most urgently needed. If you want to test Gemini: The web interface works partially, the API does not. Document such blocks – that's a finding too.
+In our testing ([FAIR-SW-Bench](docs/fair-sw-bench.md) pilot), the Google Gemini API blocked all social work prompts through built-in safety filters that cannot be disabled. This affects scenarios like suicidality, domestic violence, or child endangerment – precisely the topics where bias analysis is most urgently needed. If you want to test Gemini: The web interface works partially, the API does not. Document such blocks – that's a finding too.
 
 ---
 
@@ -213,7 +213,7 @@ The Google Gemini API blocks **100% of all social work prompts** through built-i
 
 For working with LLMs, **Context Engineering** is more relevant than Prompt Engineering. The difference: Prompt Engineering searches for the perfect phrasing. Context Engineering curates the *information* the model receives.
 
-In practice: Instead of assigning the LLM a role ("You are a diversity expert"), give it the concrete context of your scenario – target group, institutional framework, relevant diversity dimensions. Empirical studies (Kim et al., ICLR 2025) show that role prompts provide no improvement or even harm performance in current models.
+In practice: Instead of assigning the LLM a role ("You are a diversity expert"), give it the concrete context of your scenario – target group, institutional framework, relevant diversity dimensions. Empirical studies ([Kim et al., ICLR 2025](https://arxiv.org/abs/2408.08631)) show that role prompts provide no improvement or even harm performance in current models.
 
 For your project: When designing system prompts for your tool, experiment with the *context*, not with role descriptions.
 
@@ -224,7 +224,8 @@ For your project: When designing system prompts for your tool, experiment with t
 | Aspect | Specification |
 |--------|--------------|
 | **Teamwork** | Your choice: individual or team (max. 3 people). Group formation between EH 2 and EH 3, report in EH 3. |
-| **Coding Agents** | You may and should use AI coding agents. Free option: GitHub Copilot is built into VS Code and free for students via the [GitHub Student Developer Pack](https://education.github.com/pack). Use Agent Mode: describe what you need, and the agent writes the code. If you already have a paid subscription to Claude Code, Gemini CLI, Codex, Cursor, or another agent, use that instead. |
+| **Version Control** | [Git](https://git-scm.com/) + [GitHub](https://github.com/). See the [Setup Guide](https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/#/setup) for installation. |
+| **Coding Agents** | You may and should use AI coding agents. Free option: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Use Agent Mode: describe what you need, and the agent writes the code. If you already have a paid subscription to [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Codex](https://openai.com/index/introducing-codex/), [Cursor](https://www.cursor.com/), or another agent, use that instead. |
 | **Programming Language** | Your choice. Python recommended for easy API integration. |
 | **Submission** | GitHub repository with code and Promptotyping docs. |
 
@@ -243,8 +244,7 @@ You maintain four documents throughout your project:
 
 **Core principle: Your artifact must be regenerable from the docs.** If you delete your code, an LLM reading your Promptotyping docs should be able to recreate it.
 
-The Promptotyping methodology is available as an open agent skill that works with any LLM. You can install it in your coding agent or simply copy the .md templates into any LLM conversation:
-https://github.com/DigitalHumanitiesCraft/promptotyping-skill
+The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM. You can install it in your coding agent or simply copy the .md templates into any LLM conversation: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
 ---
 
@@ -254,9 +254,9 @@ https://github.com/DigitalHumanitiesCraft/promptotyping-skill
 |----------|------|------------|
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
 | **EH 3 (27.04.)** | Report group composition, present topic | In session |
-| **06.05.** | **Task 2: Concept (Promptotyping docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
-| **Before EH 5 (03.06.)** | **Prototype**: First working version | Prepare short demo |
-| **EH 6 (24.06.)** | **Final presentation** (10 min + 5 min discussion) + final submission | GitHub repo (code + Promptotyping docs) |
+| **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
+| **03.06.** | **Task 3: Prototype** – First working version | Prepare short demo for EH 5 |
+| **24.06.** | **Task 3: Final presentation** (10 min + 5 min discussion) + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |
 
 ---
 

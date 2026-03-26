@@ -87,7 +87,7 @@ You do not need this for Session 1. This section explains how you will work duri
 
 This is how you will build your bias detection tool. You design the research (scenarios, bias dimensions, analysis); the agent writes the code.
 
-> **Already using a different coding agent?** GitHub Copilot is the free default, but if you have a paid subscription to Claude Code, Gemini CLI, Codex, Cursor, or any other agent, use that instead. The methodology is the same.
+> **Already using a different coding agent?** GitHub Copilot is the free default, but if you have a paid subscription to [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [Codex](https://openai.com/index/introducing-codex/), [Cursor](https://www.cursor.com/), or any other agent, use that instead. The methodology is the same.
 
 ---
 

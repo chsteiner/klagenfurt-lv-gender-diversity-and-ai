@@ -14,7 +14,7 @@ Discrimination does not operate one-dimensionally. Gender, origin, class, age, d
 
 ## Bias Dimensions
 
-Five dimensions from the FAIR-SW-Bench framework. You can adopt, adapt, or define your own:
+Five dimensions from the [FAIR-SW-Bench](fair-sw-bench.md) framework. You can adopt, adapt, or define your own:
 
 | Dimension | What is measured? |
 |-----------|------------------|
@@ -38,4 +38,4 @@ Science and Technology Studies from a feminist perspective: Technology is not ne
 
 ## EU AI Act
 
-Starting August 2026, the EU AI Act classifies systems in social work as **high-risk applications**. Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are missing. Your project addresses exactly this gap.
+Starting August 2026, the [EU AI Act](https://artificialintelligenceact.eu/) classifies AI systems in areas like access to essential public services and benefits as **high-risk applications** ([Article 6, Annex III](https://artificialintelligenceact.eu/annex/3/)) – categories that directly affect social work practice. Providers must demonstrate that their systems do not discriminate. Validated testing methods for German-language contexts are missing. Your project addresses exactly this gap.

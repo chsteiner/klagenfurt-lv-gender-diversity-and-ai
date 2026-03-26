@@ -37,15 +37,14 @@ Your concept submission consists of four Promptotyping documents (.md files):
 
 These documents serve as your project plan AND as a knowledge base for LLM-assisted development. The core principle: **your artifact must be regenerable from the docs.** If you delete your code, an LLM reading your Promptotyping docs should be able to recreate it.
 
-The Promptotyping methodology is available as an open agent skill that works with any LLM (Claude, ChatGPT, Gemini, local models). You can install it as a skill in your coding agent or simply copy the .md templates into any LLM conversation:
-https://github.com/DigitalHumanitiesCraft/promptotyping-skill
+The [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) methodology is available as an open agent skill that works with any LLM (Claude, ChatGPT, Gemini, local models). You can install it as a skill in your coding agent or simply copy the .md templates into any LLM conversation: [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
 **Deadline:** 06.05.2026 (zipped .md files on Moodle)
 
 **Task 3 – Project implementation (workload: 50.25 hours per person)**
 
 * Develop your bias benchmark tool based on your Promptotyping docs.
-* Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: GitHub Copilot is free for students via the [GitHub Student Developer Pack](https://education.github.com/pack) and built into VS Code. Keep your Promptotyping docs updated as you go; they are living documents.
+* Use LLM-assisted development (any coding agent: GitHub Copilot Agent Mode, Claude Code, Cursor, or similar). Note: [GitHub Copilot](https://github.com/features/copilot) is built into VS Code. Every GitHub account includes Copilot Free (50 chat messages/month); students can upgrade to unlimited usage via the [GitHub Student Developer Pack](https://education.github.com/pack). Keep your Promptotyping docs updated as you go; they are living documents.
 * Minimum requirements: 10+ test prompts, 2+ bias dimensions, 1+ LLM, documented methodology, working code.
 * LLM access: free via [Ollama](https://ollama.com/) (local models) or free-tier web interfaces.
 

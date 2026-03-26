@@ -5,7 +5,7 @@
 **Your task:** Build a tool that makes bias in Large Language Models visible.
 
 **What you submit:**
-- GitHub repository with code and Promptotyping docs
+- GitHub repository with code and [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
 - At least 10 custom prompts, 2 bias dimensions, 1 LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
@@ -21,7 +21,7 @@
 2. **2+ bias dimensions** that you systematically evaluate
 3. **1+ LLM** that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way?
-5. **Working code** with Promptotyping docs
+5. **Working code** with [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs
 
 ## What You Decide
 
@@ -57,14 +57,14 @@ You maintain four documents throughout your project:
 
 **Core principle: Your artifact must be regenerable from the docs.**
 
-Open agent skill (works with any LLM): https://github.com/DigitalHumanitiesCraft/promptotyping-skill
+Open agent skill (works with any LLM): [github.com/DigitalHumanitiesCraft/promptotyping-skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)
 
 ## Grading
 
 | Component | Weight |
 |-----------|--------|
-| **Project** (GitHub repo: code + presentation, Tasks 1-3) | 50% |
-| **Promptotyping documentation** (Task 4) | 30% |
+| **Project** (GitHub repo: code + presentation, [Tasks 1–3](zeitplan.md)) | 50% |
+| **[Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) documentation** ([Task 4](zeitplan.md)) | 30% |
 | **Participation** | 20% |
 
 ## Questions?

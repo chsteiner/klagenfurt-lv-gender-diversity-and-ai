@@ -24,14 +24,14 @@
 |----------|------|------------|
 | **22.04.** | **Task 1: Literature overview** – Topic, 2-3 sources, 1 page | .md file on Moodle |
 | **EH 3 (27.04.)** | Report group composition, present topic | In session |
-| **06.05.** | **Task 2: Concept (Promptotyping docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
-| **Before EH 5 (03.06.)** | **Prototype**: First working version | Prepare short demo |
-| **EH 6 (24.06.)** | **Final presentation** + submission | GitHub repo (code + Promptotyping docs) |
+| **06.05.** | **Task 2: Concept ([Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs)** – knowledge.md, requirements.md, design.md, journal.md | Zipped .md files on Moodle |
+| **03.06.** | **Task 3: Prototype** – First working version | Prepare short demo for EH 5 |
+| **24.06.** | **Task 3: Final presentation** + **Task 4: Final [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) docs** | GitHub repo (code + Promptotyping docs) |
 
 ## Grading
 
 | Component | Weight |
 |-----------|--------|
-| Project (GitHub repo, Tasks 1-3) | 50% |
-| Promptotyping documentation (Task 4) | 30% |
+| Project (GitHub repo, [Tasks 1–3](projektauftrag.md)) | 50% |
+| [Promptotyping](https://github.com/DigitalHumanitiesCraft/promptotyping-skill) documentation ([Task 4](projektauftrag.md)) | 30% |
 | Participation (min. 80% attendance) | 20% |

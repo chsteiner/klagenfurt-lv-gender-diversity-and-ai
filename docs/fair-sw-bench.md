@@ -41,7 +41,7 @@ Bias reduction may come at the cost of usefulness. Diversity-aware variants show
 
 ### Gemini Blocking
 
-Google Gemini blocks 100% of all social work prompts through built-in safety filters. That's a finding too.
+In pilot testing, the Google Gemini API blocked all social work prompts through built-in safety filters. That's a finding too.
 
 ### Limitations
 
