@@ -74,13 +74,13 @@ v2 changes after colleague review (23.04.2026):
 - Restructured LLM-as-Judge to lead with manual scoring
 -->
 
+<!-- _class: cover -->
+
 # Introduction to Bias Detection in AI
 
-Session 3 – Gender, Diversity & AI
-Klagenfurt, SS2026
+## Session 3 · Gender, Diversity & AI · Klagenfurt SS2026
 
-**Guest contribution:** Christian Steiner, Digital Humanities Craft OG
-27.04.2026 | Online
+### Christian Steiner · DHCraft · 27.04.2026 online
 
 ---
 
@@ -98,7 +98,7 @@ Klagenfurt, SS2026
 
 ---
 
-## Agenda – 3 blocks, 2 breaks
+# Agenda – 3 blocks, 2 breaks
 
 1. **What counts as AI, and what counts as bias** (~30 min)
 2. **FAIR-SW-Bench: one research group's attempt to measure it** (~30 min)
@@ -108,7 +108,7 @@ Practical workflow + Q&A interleaved.
 
 ---
 
-## Where you are in the 4-task sequence
+# Where you are in the 4-task sequence
 
 | Task | What | Deadline | Status |
 |------|------|----------|--------|
@@ -125,7 +125,7 @@ Practical workflow + Q&A interleaved.
 
 ---
 
-## This is not only a course requirement
+# This is not only a course requirement
 
 - **EU AI Act**: many high-risk-system rules set for **August 2026** (employment, education, healthcare, essential services, law enforcement)
 - Validated bias testing methods for German-language contexts barely exist
@@ -137,37 +137,37 @@ Practical workflow + Q&A interleaved.
 
 # Three system types often discussed as "AI"
 
-![width:80%](img/fig-ai-types.png)
+![width:80%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-ai-types.png)
 
-<small>*Three automation logics with different bias sources — not a philosophy-of-AI debate.*</small>
+<small>*Three automation logics with different bias sources – not a philosophy-of-AI debate.*</small>
 
 ---
 
-## Type 1: Rule-based / Symbolic
+# Type 1: Rule-based / Symbolic
 
 **How it works:** fixed if-then rules. Same input → same output. No learning.
 
 **Examples:** social benefits eligibility; insurance premium tiers; traditional credit scoring.
 
-**Where is the bias?** In the rules themselves — who set the thresholds? Which life situations were not considered?
+**Where is the bias?** In the rules themselves – who set the thresholds? Which life situations were not considered?
 
 <small>*Historically dominant form of AI research (1950s–1990s); deterministic code.*</small>
 
 ---
 
-## Type 2: Predictive (Machine Learning)
+# Type 2: Predictive (Machine Learning)
 
 **How it works:** learns statistical patterns from past cases. Computes risk scores / classifications. No new content.
 
 **Examples:** Allegheny Family Screening Tool; CV screening classifiers; financial sentiment models.
 
-**Where is the bias?** Many entry points — training data, label definitions, feature selection, proxy variables, sampling, feedback loops.
+**Where is the bias?** Many entry points – training data, label definitions, feature selection, proxy variables, sampling, feedback loops.
 
-<small>*Testable with fairness metrics (AI Fairness 360) — but never neutral.*</small>
+<small>*Testable with fairness metrics (AI Fairness 360) – but never neutral.*</small>
 
 ---
 
-## Type 3: Generative (LLM)
+# Type 3: Generative (LLM)
 
 **How it works:** generates text word-by-word; each run → different result.
 
@@ -179,7 +179,7 @@ Practical workflow + Q&A interleaved.
 
 ---
 
-## Which type is your project?
+# Which type is your project?
 
 | AI Type | Project domains |
 |---------|-----------------|
@@ -195,19 +195,19 @@ Practical workflow + Q&A interleaved.
 
 ---
 
-## Foundation: The category error
+# Foundation: The category error
 
-![width:72%](img/fig-category-error.png)
+![width:72%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-category-error.png)
 
-**For this course:** use **N ≥ 10 runs per prompt-variant-provider combination** — enough to see variance.
+**For this course:** use **N ≥ 10 runs per prompt-variant-provider combination** – enough to see variance.
 
 ---
 
-## Risk 1: Hallucination (plausible confabulation)
+# Risk 1: Hallucination (plausible confabulation)
 
-AI invents facts, sources, and laws — convincingly phrased.
+AI invents facts, sources, and laws – convincingly phrased.
 
-*Example: a hiring chatbot states a candidate "holds an MSc from ETH Zurich" — they never attended. A mental-health bot cites a DSM-5 criterion that does not exist.*
+*Example: a hiring chatbot states a candidate "holds an MSc from ETH Zurich" – they never attended. A mental-health bot cites a DSM-5 criterion that does not exist.*
 
 Structural risk, not accident: text by probability, not factual knowledge. More plausible false = more dangerous. Can be reduced (retrieval, verification), not eliminated.
 
@@ -215,7 +215,7 @@ Structural risk, not accident: text by probability, not factual knowledge. More 
 
 ---
 
-## Risk 2: Sycophancy — the biggest pitfall for bias research
+# Risk 2: Sycophancy – the biggest pitfall for bias research
 
 AI confirms what you want to hear instead of pushing back.
 
@@ -224,11 +224,11 @@ AI confirms what you want to hear instead of pushing back.
 
 For bias research this is the **single biggest methodological trap**: leading prompts produce the expected bias whether it exists or not.
 
-**Never ask "is this biased?" — always "evaluate against this rubric." Then count.**
+**Never ask "is this biased?" – always "evaluate against this rubric." Then count.**
 
 ---
 
-## Risk 3: Deskilling
+# Risk 3: Deskilling
 
 Writing reports IS reflection. Delegating the process means losing the reflection.
 
@@ -247,20 +247,20 @@ A concrete method for measuring bias in LLMs
 
 ---
 
-## What FAIR-SW-Bench is
+# What FAIR-SW-Bench is
 
-**A bias evaluation framework** developed at DHCraft (v2.4) — grounded in social work, method generalises.
+**A bias evaluation framework** developed at DHCraft (v2.4) – grounded in social work, method generalises.
 
 - **41 German scenarios** (pilot used 30-scenario subset)
 - **3 prompt variants:** Base / Neutral / Diversity-Aware
 - **5 bias + 5 helpfulness dimensions**, rated 0–10
 - **LLM-as-Judge** with cross-provider validation (GPT-5, Claude, Mistral)
 
-**A worked example of the methodology — you adapt the pattern, not replicate it.**
+**A worked example of the methodology – you adapt the pattern, not replicate it.**
 
 ---
 
-## The five bias dimensions
+# The five bias dimensions
 
 **Pick at least one; intersections even better.**
 
@@ -274,60 +274,60 @@ A concrete method for measuring bias in LLMs
 
 ---
 
-## Prompt Variants: three methodological moves
+# Prompt Variants: three methodological moves
 
-![width:70%](img/fig-prompt-variants.png)
+![width:70%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-prompt-variants.png)
 
-**Keep Task and Format identical** across variants. Only the Context step changes — so any difference in output is attributable to the variable you changed.
+**Keep Task and Format identical** across variants. Only the Context step changes – so any difference in output is attributable to the variable you changed.
 
 ---
 
-## How do you actually count bias?
+# How do you actually count bias?
 
-**Worked micro-example** — stereotyping, scale 0–10
+**Worked micro-example** – stereotyping, scale 0–10
 
 *Prompt:* "The doctor asked the nurse to prepare the patient. Describe their conversation."
 *Response:* "Dr. Schmidt kindly asked Nurse Maria. She gently reassured the patient..."
 
 *Rubric:* gendered name = stereotype (+3 each); care-verbs on passive role (+1) → **7/10**
 
-> **The rubric is your measurement instrument.** Scores are documented judgement rules — not truth.
+> **The rubric is your measurement instrument.** Scores are documented judgement rules – not truth.
 
 ---
 
-## Scoring at scale: two approaches
+# Scoring at scale: two approaches
 
-**Task 2 primary — Manual scoring with your rubric.** Score ≥10 responses per variant. Check consistency by rescoring after 48h or having a second person score 10%.
+**Task 2 primary – Manual scoring with your rubric.** Score ≥10 responses per variant. Check consistency by rescoring after 48h or having a second person score 10%.
 
-**Task 3+ scalable — LLM-as-Judge.** A second LLM scores against your rubric. Fast, but judges have biases (length, self-preference, sentiment). Pollin: *"FAIR-SW-Bench may partly measure judge biases."* If used: ≥2 judges, ≥10% manual verification.
+**Task 3+ scalable – LLM-as-Judge.** A second LLM scores against your rubric. Fast, but judges have biases (length, self-preference, sentiment). Pollin: *"FAIR-SW-Bench may partly measure judge biases."* If used: ≥2 judges, ≥10% manual verification.
 
 **Start with manual. Don't optimize what you haven't measured.**
 
 ---
 
-## Three findings you should know before you start
+# Three findings you should know before you start
 
 *All three: internal FAIR-SW-Bench pilot, exploratory, not peer-reviewed.*
 
 ---
 
-## Finding 1: The Diversity Instruction Paradox
+# Finding 1: The Diversity Instruction Paradox
 
-![width:72%](img/fig-diversity-paradox.png)
+![width:72%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-diversity-paradox.png)
 
-Salience effect, or artefact of judge/rubric. **Good intentions do not guarantee good results — always test both directions.**
-
----
-
-## Finding 2: Utility-Safety Trade-off
-
-![width:62%](img/fig-utility-safety-tradeoff.png)
-
-Less biased — but also less actionable. **Document both axes in your project.**
+Salience effect, or artefact of judge/rubric. **Good intentions do not guarantee good results – always test both directions.**
 
 ---
 
-## Finding 3: Google Gemini blocks sensitive domains
+# Finding 2: Utility-Safety Trade-off
+
+![width:62%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-utility-safety-tradeoff.png)
+
+Less biased – but also less actionable. **Document both axes in your project.**
+
+---
+
+# Finding 3: Google Gemini blocks sensitive domains
 
 **In our FAIR-SW-Bench pilot, the Gemini API blocked all tested sensitive-domain prompts** (default safety settings, German).
 
@@ -341,20 +341,16 @@ Affected: suicidality, domestic violence, child endangerment, mental health cris
 
 Clusters, shared risks, refocus options
 
-<!--
-~45 min block. Walk through the cluster slide + risk table, then each
-student presents (~4 min each + 1 min feedback), cluster-level critique
-stays at cluster level (not individual) in public.
--->
+<!-- notes: ~45 min block. Walk through the cluster slide + risk table, then each student presents (~4 min each + 1 min feedback), cluster-level critique stays at cluster level (not individual) in public. -->
 
 ---
 
-## Project clusters
+# Project clusters
 
 **Domain-specific applications (5)**
 Mental Health · AI Recruiting / CV screening · Finance / earnings-call sentiment · Insurance product recommendations · Moral judgement ("same story, different judgement")
 
-**Gender Bias in LLMs — general (3)**
+**Gender Bias in LLMs – general (3)**
 Cross-domain gender-stereotype work
 
 **Meta / AI literacy angle (1)**
@@ -362,7 +358,7 @@ Self-determination and bias detection skills
 
 ---
 
-## Where each cluster stands — domain-specific
+# Where each cluster stands – domain-specific
 
 | Cluster | Strength | Next risk |
 |---|---|---|
@@ -374,7 +370,7 @@ Self-determination and bias detection skills
 
 ---
 
-## Where each cluster stands — general + meta
+# Where each cluster stands – general + meta
 
 | Cluster | Strength | Next risk |
 |---------|----------|-----------|
@@ -385,14 +381,14 @@ Self-determination and bias detection skills
 
 ---
 
-## If your project leaned toward pedagogy / AI literacy
+# If your project leaned toward pedagogy / AI literacy
 
-**The brief asks for** a bias benchmark tool — empirical measurement on LLM outputs.
+**The brief asks for** a bias benchmark tool – empirical measurement on LLM outputs.
 
 **Two viable paths to keep an AI-literacy angle:**
 
 1. **Pivot:** pick a domain (AI in education? tutoring bias?) and measure bias there.
-2. **Bridge:** keep AI literacy as the *application* — build a tool that helps users detect bias. Test with N ≥ 5 users.
+2. **Bridge:** keep AI literacy as the *application* – build a tool that helps users detect bias. Test with N ≥ 5 users.
 
 Happy to talk 1:1 after the session.
 
@@ -411,23 +407,23 @@ Practical workflow for the next 6 weeks
 
 ---
 
-## Your 6-week workflow
+# Your 6-week workflow
 
-![width:95%](img/fig-workflow-timeline.png)
+![width:95%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-workflow-timeline.png)
 
 **Prototype = works end-to-end, even if minimal.** 3 prompts, 1 LLM, 1 bias dimension is fine for 03.06.
 
 ---
 
-## Context Engineering, not Prompt Engineering
+# Context Engineering, not Prompt Engineering
 
-![width:62%](img/fig-context-engineering.png)
+![width:62%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-context-engineering.png)
 
-Curated context = reproducible experiments: same task, rubric, format — only the bias-relevant variable changes. **Role prompts alone do not help.**
+Curated context = reproducible experiments: same task, rubric, format – only the bias-relevant variable changes. **Role prompts alone do not help.**
 
 ---
 
-## The 4-step prompt formula
+# The 4-step prompt formula
 
 | Step | Example (hiring screener) |
 |------|---------------------------|
@@ -440,7 +436,7 @@ Curated context = reproducible experiments: same task, rubric, format — only t
 
 ---
 
-## Output check: three questions for every response
+# Output check: three questions for every response
 
 1. **Pathologisation:** is behaviour / data framed as deficit instead of read as signal?
 2. **Stereotypes:** are groups made invisible or shown stereotypically?
@@ -452,19 +448,19 @@ Curated context = reproducible experiments: same task, rubric, format — only t
 
 ---
 
-## Tools: free and reproducible
+# Tools: free and reproducible
 
-- **[Ollama](https://ollama.com/)** — runtime for open-source LLMs (models: `llama3`, `mistral`, `phi3`, ...)
-- **GitHub Copilot** — Agent Mode in VS Code; free tier + unlimited for students (Developer Pack)
-- **Cloud fallback** — [HuggingChat](https://huggingface.co/chat/), [Mistral Le Chat](https://chat.mistral.ai/)
+- **[Ollama](https://ollama.com/)** – runtime for open-source LLMs (models: `llama3`, `mistral`, `phi3`, ...)
+- **GitHub Copilot** – Agent Mode in VS Code; free tier + unlimited for students (Developer Pack)
+- **Cloud fallback** – [HuggingChat](https://huggingface.co/chat/), [Mistral Le Chat](https://chat.mistral.ai/)
 - **Paid alternatives** (if you have them): Claude Code, Cursor, Gemini CLI, Codex
-- **[Promptotyping skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)** — documentation methodology (recommended)
+- **[Promptotyping skill](https://github.com/DigitalHumanitiesCraft/promptotyping-skill)** – documentation methodology (recommended)
 
 **Reproducibility means:** document model, version, temperature, seed, date, interface.
 
 ---
 
-## Task 2 — what to submit by 06.05.
+# Task 2 – what to submit by 06.05.
 
 Zipped `.md` files on Moodle, containing:
 
@@ -484,7 +480,7 @@ And what to do next
 
 ---
 
-## What you can do now
+# What you can do now
 
 - **Classify** which AI type your project is really about
 - **Choose** at least one bias dimension that fits your domain – or define your own
@@ -495,7 +491,7 @@ And what to do next
 
 ---
 
-## Your next action – before EH 4 (11.05.)
+# Your next action – before EH 4 (11.05.)
 
 **Draft 5 prompts in your chosen domain, in all three variants. Run them once against `llama3` via Ollama (or a web interface if your laptop cannot run local models). Bring what surprised you to EH 4.**
 
