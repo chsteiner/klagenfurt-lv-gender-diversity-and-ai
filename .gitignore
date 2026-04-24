@@ -6,5 +6,3 @@ slides/*
 slides/_*
 !slides/session-3-klafu-2026-04-27.md
 !slides/img/
-!slides/check-slide-overflow.mjs
-!slides/image-prompts.md
