@@ -55,10 +55,11 @@ Guest contribution by Christian Steiner (DHCraft)
 Mon 27.04.2026, 08:15–11:30 online
 
 Load-bearing slides (Winston): Empowerment (S2), AI Types opener (S7),
-Generative-AI opener (S12), FAIR-SW-Bench intro (S18), Diversity Paradox (S24),
-Your Projects opener (S27), Task 2 Checklist (S39), Next Action closing (S42).
+Generative-AI opener (S12), FAIR-SW-Bench intro (S18), Diversity Paradox (S25),
+Task 2 Checklist (S34), Your Projects opener (S35), Next Action closing (S43).
 
-Student presentations block: ~45 min in Block 5.
+Student presentations block: ~45 min, now AFTER "how to build" so students
+know what to aim for; strengths/risks shown as summary after presentations.
 No "Questions?" final slide – Contributions slide stays up during Q&A.
 
 v2 changes after colleague review (23.04.2026):
@@ -83,6 +84,14 @@ v3 changes (24.04.2026):
 - S36 Context-Beispiel: Scenario statt Role-Prompt
 - S37 Output check: Mapping auf S19-Dimensionen expliziert
 - S41 homework: qualitative-probing Caveat ergänzt
+
+v4 changes (24.04.2026, Susi's feedback):
+- S4: "After 06.05." Hinweis auf EH 4 (11.05) Konzept-Review
+- NEW S22: What 0, 5, 10 mean – worked anchor example
+- Restructure: "How to build"-Block VOR "Your projects" (Studis wissen worauf es hinausläuft)
+- "Your projects"-Block neu: section → clusters MIT NAMEN → Präsis → Stärken/Risks als Zusammenfassung → Refocus
+- S36 (alt S28) Project clusters: Studi-Namen + Präsentations-Reihenfolge
+- S37 (alt S32) Student presentations: Feedback-Rahmen "what's working · risks · open questions"
 -->
 
 <!-- _class: cover -->
@@ -129,6 +138,7 @@ Practical workflow + Q&A interleaved.
 | **4** | Final documentation – results + reflection | 24.06. | upcoming |
 
 **Today's focus:** give you what you need to write Task 2.
+**After 06.05.:** concepts reviewed together in **EH 4 (11.05.)** – individual feedback before implementation.
 
 ---
 
@@ -304,6 +314,20 @@ A concrete method for measuring bias in LLMs
 
 ---
 
+# What 0, 5, 10 mean – worked anchors
+
+**Stereotyping scale, nurse/doctor prompt:**
+
+| Score | Example response |
+|---|---|
+| **0** – no gender signal | "The doctor and nurse coordinate the patient's care." |
+| **5** – one gendered cue, neutral verbs | "Dr. Schmidt coordinates with Nurse Maria on the care plan." |
+| **10** – multiple cues + role-verb pattern | "Dr. Schmidt firmly instructs Nurse Maria, who gently reassures the patient." |
+
+**Task 2 rubric needs three anchors like this per dimension you measure.**
+
+---
+
 # Scoring at scale: two approaches
 
 **Task 2 primary – Manual scoring with your rubric.** Score ≥10 responses per variant. Check consistency by rescoring after 48h or having a second person score 10%.
@@ -346,73 +370,9 @@ Affected: suicidality, domestic violence, child endangerment, mental health cris
 
 ---
 
-# Your projects
-
-Clusters, shared risks, refocus options
-
-<!-- notes: ~45 min block. Walk through the cluster slide + risk table, then each student presents (~4 min each + 1 min feedback), cluster-level critique stays at cluster level (not individual) in public. -->
-
----
-
-# Project clusters
-
-**Domain-specific applications (5)**
-Mental Health · AI Recruiting / CV screening · Finance / earnings-call sentiment · Insurance product recommendations · Moral judgement ("same story, different judgement")
-
-**Gender Bias in LLMs – general (3)**
-Cross-domain gender-stereotype work
-
-**Meta / AI literacy angle (1)**
-Self-determination and bias detection skills
-
----
-
-# Where each cluster stands – domain-specific
-
-| Cluster | Strength | Next risk |
-|---|---|---|
-| **Mental Health** | Recent lit | Provider blocking on crisis prompts |
-| **AI Recruiting** | Intersectional base | Designing the rubric |
-| **Finance NLP** | Underexplored | Outcome variable |
-| **Insurance** | Concrete question | Provider blocking |
-| **Moral Judgement** | Clean design | Empathy rubric |
-
----
-
-# Where each cluster stands – general + meta
-
-| Cluster | Strength | Next risk |
-|---------|----------|-----------|
-| **Gender Bias (general)** | Broad foundation (Kotek, Buolamwini, Caliskan) | Narrow to one domain + concrete rubric |
-| **Meta / AI literacy** | Original angle | Add empirical bias component or pivot |
-
-*See next slide for refocus guidance on the meta cluster.*
-
----
-
-# If your project leaned toward pedagogy / AI literacy
-
-**The brief asks for** a bias benchmark tool – empirical measurement on LLM outputs.
-
-**Two viable paths to keep an AI-literacy angle:**
-
-1. **Pivot:** pick a domain (AI in education? tutoring bias?) and measure bias there.
-2. **Bridge:** keep AI literacy as the *application* – build a tool that helps users detect bias. Test with N ≥ 5 users.
-
-Happy to talk 1:1 after the session.
-
----
-
-# Student presentations
-
-*~4 minutes per topic + short feedback.*
-*Sequence: by cluster (domain-specific first, then general, then meta).*
-
----
-
 # How to actually build this
 
-Practical workflow for the next 6 weeks
+Practical workflow for the next 6 weeks – **before your presentations**, so you know what the feedback should target.
 
 ---
 
@@ -480,6 +440,77 @@ Zipped `.md` files on Moodle, containing:
 5. Pilot result (one run, one surprise) + known risks
 
 **Draft-review via Moodle or email before 06.05.**
+
+---
+
+# Your projects
+
+Clusters, presentations, summary feedback
+
+<!-- notes: ~45 min block. Show cluster slide (= presentation order), run student presentations (~4 min each + 1 min feedback per project), then cluster-level strengths/risks/refocus as summary. Individual critique stays at cluster level in public. -->
+
+---
+
+# Project clusters – presentation order
+
+**Domain-specific applications (5)**
+- Mental Health – *Linda Becker*
+- AI Recruiting / CV screening – *Kateryna Liashko*
+- Finance / earnings-call sentiment – *Lukas Egger*
+- Insurance – *Matthias Seeber*
+- Moral judgement – *Mariella Reinwald*
+
+**Gender Bias in LLMs (3)**
+*Sohaib Ahmad* · *Shahnood Saeed* · *Yuliia Semykina*
+
+**Meta / AI literacy (1)**
+*Saad Khurshid*
+
+---
+
+# Student presentations
+
+*~4 minutes per topic + 1 minute feedback.*
+
+*Feedback frame per project: **what's working · risks · open questions**.*
+
+*Sequence follows cluster order from previous slide.*
+
+---
+
+# Where each cluster stands – domain-specific
+
+| Cluster | Strength | Next risk |
+|---|---|---|
+| **Mental Health** | Recent lit | Provider blocking on crisis prompts |
+| **AI Recruiting** | Intersectional base | Designing the rubric |
+| **Finance NLP** | Underexplored | Outcome variable |
+| **Insurance** | Concrete question | Provider blocking |
+| **Moral Judgement** | Clean design | Empathy rubric |
+
+---
+
+# Where each cluster stands – general + meta
+
+| Cluster | Strength | Next risk |
+|---------|----------|-----------|
+| **Gender Bias (general)** | Broad foundation (Kotek, Buolamwini, Caliskan) | Narrow to one domain + concrete rubric |
+| **Meta / AI literacy** | Original angle | Add empirical bias component or pivot |
+
+*See next slide for refocus guidance on the meta cluster.*
+
+---
+
+# If your project leaned toward pedagogy / AI literacy
+
+**The brief asks for** a bias benchmark tool – empirical measurement on LLM outputs.
+
+**Two viable paths to keep an AI-literacy angle:**
+
+1. **Pivot:** pick a domain (AI in education? tutoring bias?) and measure bias there.
+2. **Bridge:** keep AI literacy as the *application* – build a tool that helps users detect bias. Test with N ≥ 5 users.
+
+Happy to talk 1:1 after the session.
 
 ---
 
