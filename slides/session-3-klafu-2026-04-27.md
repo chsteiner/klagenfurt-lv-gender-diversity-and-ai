@@ -194,7 +194,7 @@ Practical workflow + Q&A interleaved.
 
 **Examples:** ChatGPT, Claude, Gemini, local models (Llama, Mistral).
 
-**Where is the bias?** Training data, labels, objectives, post-training (RLHF = reinforcement learning from human feedback), prompts, decoding, evaluation design.
+**Where is the bias?** Training data · labels · objectives · post-training (RLHF) · prompts · decoding · evaluation design.
 
 <small>*Often cited: LLMs assigned "she" → "nurse" in ~95% of cases, "he" → "doctor" (Kotek et al. 2023).*</small>
 
@@ -228,7 +228,7 @@ AI invents facts, sources, and laws – convincingly phrased.
 
 *Example: a hiring chatbot states a candidate "holds an MSc from ETH Zurich" – they never attended. A mental-health bot cites a DSM-5 criterion that does not exist.*
 
-Structural risk, not accident: text by probability, not factual knowledge. More plausible false = more dangerous. Can be reduced (retrieval, verification), not eliminated.
+**Structural, not a bug:** text-by-probability, not fact retrieval. Mitigatable (retrieval, verification); not eliminatable.
 
 **For your projects:** if you ask LLMs for statistics or case law, verify before citing.
 
@@ -266,13 +266,14 @@ A concrete method for measuring bias in LLMs
 
 ---
 
-# What FAIR-SW-Bench is
+# FAIR-SW-Bench: 41 scenarios · 3 variants · 5 dimensions · 3 judges
 
-**A bias evaluation framework** developed at DHCraft (v2.4) – grounded in social work, method generalises.
+**A bias evaluation framework** developed at DHCraft (v2.4) – grounded in social work, transferable pattern (not a drop-in framework for other domains).
 
 - **41 German scenarios** (pilot used 30-scenario subset)
 - **3 prompt variants:** Base / Neutral / Diversity-Aware
 - **5 bias + 5 helpfulness dimensions**, rated 0–10
+  <small>*Helpfulness: Specificity · Actionability · Professional Depth · Comprehensiveness · Prioritization*</small>
 - **LLM-as-Judge** with cross-provider validation (GPT-5, Claude, Mistral)
 
 **A worked example of the methodology – you adapt the pattern, not replicate it.**
@@ -303,7 +304,7 @@ A concrete method for measuring bias in LLMs
 
 # How do you actually count bias?
 
-**Worked micro-example** – stereotyping, scale 0–10
+**Worked example** – stereotyping, scale 0–10
 
 *Prompt:* "The doctor asked the nurse to prepare the patient. Describe their conversation."
 *Response:* "Dr. Schmidt kindly asked Nurse Maria. She gently reassured the patient..."
@@ -326,13 +327,17 @@ A concrete method for measuring bias in LLMs
 
 **Task 2 rubric needs three anchors like this per dimension you measure.**
 
+<small>*FAIR-SW-Bench itself uses generic anchors (minimal / moderate / significant). Your domain-specific anchors are better.*</small>
+
 ---
 
-# Scoring at scale: two approaches
+# Scoring at scale: start manual, then LLM-as-Judge
 
-**Task 2 primary – Manual scoring with your rubric.** Score ≥10 responses per variant. Check consistency by rescoring after 48h or having a second person score 10%.
-
-**Task 3+ scalable – LLM-as-Judge.** A second LLM scores against your rubric. Fast, but judges have biases (length, self-preference, sentiment). Pollin: *"FAIR-SW-Bench may partly measure judge biases."* If used: ≥2 judges, ≥10% manual verification.
+| | Manual (Task 2) | LLM-as-Judge (Task 3+) |
+|---|---|---|
+| **When** | Primary path | Scalable extension |
+| **Min standard** | Score ≥10 per variant · 48h rescore *or* peer-check 10% | ≥2 judges from different providers · ≥10% manual verification |
+| **Trap** | Consistency drift | Judges have their own biases |
 
 **Start with manual. Don't optimize what you haven't measured.**
 
@@ -346,15 +351,19 @@ A concrete method for measuring bias in LLMs
 
 # Finding 1: The Diversity Instruction Paradox
 
-![width:72%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-diversity-paradox.png)
+**Diversity-aware prompts produced *higher* bias scores than neutral ones.**
 
-Salience effect, or artefact of judge/rubric. **Good intentions do not guarantee good results – always test both directions.**
+![width:55%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-diversity-paradox.png)
+
+**Good intentions do not guarantee good results – always test both directions.**
 
 ---
 
 # Finding 2: Utility-Safety Trade-off
 
-![width:62%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-utility-safety-tradeoff.png)
+**Base:** bias 6.2 / helpfulness 8.1 → **Diversity-aware:** bias 3.8 / helpfulness 4.1
+
+![width:55%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-utility-safety-tradeoff.png)
 
 Less biased – but also less actionable. **Document both axes in your project.**
 
@@ -413,7 +422,8 @@ Curated context = reproducible experiments: same task, rubric, format – only t
 
 **Quick-look heuristic – maps onto three of the five dimensions shown earlier (Stereotyping, Problem Framing, Paternalistic Language).**
 
-**Anonymization rule for prompts** (if your scenarios contain personal data): could someone identify who this is? Then anonymise further. Most student projects use synthetic scenarios – less critical, but keep the habit.
+<!-- notes: Anonymization rule for prompts: if your scenarios contain personal data — could someone identify who this is? Then anonymise further. Most student projects use synthetic scenarios, so this is less critical, but keep the habit. -->
+
 
 ---
 
@@ -436,7 +446,7 @@ Zipped `.md` files on Moodle, containing:
 1. Research question + domain + target LLM(s)
 2. Bias dimension(s) + why
 3. Prompt set: 5–10 × Base / Neutral / Diversity-Aware
-4. Scoring rubric: what do 0, 5, 10 mean concretely?
+4. Scoring rubric with 0 / 5 / 10 anchors (worked example: see anchor slide)
 5. Pilot result (one run, one surprise) + known risks
 
 **Draft-review via Moodle or email before 06.05.**
@@ -480,7 +490,7 @@ Clusters, presentations, summary feedback
 
 # Where each cluster stands – domain-specific
 
-| Cluster | Strength | Next risk |
+| Cluster | Strength | Open issue |
 |---|---|---|
 | **Mental Health** | Recent lit | Provider blocking on crisis prompts |
 | **AI Recruiting** | Intersectional base | Designing the rubric |
@@ -492,7 +502,7 @@ Clusters, presentations, summary feedback
 
 # Where each cluster stands – general + meta
 
-| Cluster | Strength | Next risk |
+| Cluster | Strength | Open issue |
 |---------|----------|-----------|
 | **Gender Bias (general)** | Broad foundation (Kotek, Buolamwini, Caliskan) | Narrow to one domain + concrete rubric |
 | **Meta / AI literacy** | Original angle | Add empirical bias component or pivot |
@@ -505,10 +515,10 @@ Clusters, presentations, summary feedback
 
 **The brief asks for** a bias benchmark tool – empirical measurement on LLM outputs.
 
-**Two viable paths to keep an AI-literacy angle:**
+**Two paths:**
 
-1. **Pivot:** pick a domain (AI in education? tutoring bias?) and measure bias there.
-2. **Bridge:** keep AI literacy as the *application* – build a tool that helps users detect bias. Test with N ≥ 5 users.
+1. **Pivot:** pick an AI-in-education domain (tutoring bias, essay graders) and measure bias there.
+2. **Bridge:** keep AI literacy as the *application* – build a detection tool; test with N ≥ 5 users.
 
 Happy to talk 1:1 after the session.
 
@@ -532,11 +542,11 @@ And what to do next
 
 # Your next action – before EH 4 (11.05.)
 
-**Draft 5 prompts in your chosen domain, in all three variants. Run them once against `llama3` via Ollama (web interface if local doesn't work). This is qualitative probing – N ≥ 10 comes with the prototype. Bring what surprised you to EH 4.**
+**Do this week:** draft 5 prompts × 3 variants. Run them once against `llama3` via Ollama (web interface if local doesn't work). Bring one surprise to EH 4.
 
-Share blockers in the Moodle forum or by email.
+*Qualitative probing – N ≥ 10 comes with the prototype.*
 
-**Task 2 (concept, .md files) due 06.05. on Moodle.**
+**Deadlines:** Task 2 draft-review any time · final submission 06.05. on Moodle.
 
 **Christian Steiner:** [christian.steiner@dhcraft.org](mailto:christian.steiner@dhcraft.org)
 **Course website:** [chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai](https://chsteiner.github.io/klagenfurt-lv-gender-diversity-and-ai/)

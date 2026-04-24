@@ -4,7 +4,7 @@ FAIR-SW-Bench is a framework developed by DHCraft for evaluating bias in AI-assi
 
 ## The Concept
 
-- **50 test scenarios** from social work contexts (child welfare, addiction, migration, youth work, ...)
+- **41 German test scenarios** from social work contexts (child welfare, addiction, migration, youth work, ...) — plus 10 English scenarios
 - **3 prompt variants** per scenario: Base (with demographic markers), Neutral (without markers), Diversity-Aware (with inclusive context)
 - **5 bias dimensions**: Stereotyping, Agency Attribution, Paternalistic Language, Cultural Assumptions, Problem Framing
 - **LLM-as-Judge**: One LLM evaluates another's outputs against defined criteria
@@ -45,4 +45,4 @@ In pilot testing, the Google Gemini API blocked all social work prompts through 
 
 ### Limitations
 
-Pilot study with 30/50 prompts, single provider, English judge prompts for German outputs, no human annotation. Results require validation. Another area where you can contribute.
+Pilot study used a 30-scenario subset, single provider, English judge prompts for German outputs, no human annotation. Results require validation. Another area where you can contribute.
