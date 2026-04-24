@@ -54,9 +54,9 @@ Session 3 – Klagenfurt SS2026 – Gender, Diversity & AI
 Guest contribution by Christian Steiner (DHCraft)
 Mon 27.04.2026, 08:15–11:30 online
 
-Load-bearing slides (Winston): Empowerment (S2), AI Types opener (S6),
-Generative-AI opener (S11), FAIR-SW-Bench intro (S18), Diversity Paradox (S24),
-Your Projects opener (S29), Task 2 Checklist (S40), Next Action closing (S41).
+Load-bearing slides (Winston): Empowerment (S2), AI Types opener (S7),
+Generative-AI opener (S12), FAIR-SW-Bench intro (S18), Diversity Paradox (S24),
+Your Projects opener (S27), Task 2 Checklist (S39), Next Action closing (S42).
 
 Student presentations block: ~45 min in Block 5.
 No "Questions?" final slide – Contributions slide stays up during Q&A.
@@ -72,6 +72,17 @@ v2 changes after colleague review (23.04.2026):
 - Softened role-prompt claim
 - Clarified Ollama vs. llama3, RLHF, Promptotyping
 - Restructured LLM-as-Judge to lead with manual scoring
+
+v3 changes (24.04.2026):
+- Importer-Kompatibilität: cover-Direktive, H1-Titel, Raw-URLs, en-dashes, notes:-Prefix
+- Reframing: "Every project in this room: Type 3" (statt AI-Type-Wahl)
+- Task 2 Checklist: "target LLM(s)" statt "AI type"
+- S41 "What you can do now": Classify-Bullet gestrichen
+- S3 Agenda: "AI types, and where bias enters each"
+- S34 prototype: N ≥ 10 runs expliziert (≈90 calls)
+- S36 Context-Beispiel: Scenario statt Role-Prompt
+- S37 Output check: Mapping auf S19-Dimensionen expliziert
+- S41 homework: qualitative-probing Caveat ergänzt
 -->
 
 <!-- _class: cover -->
@@ -100,7 +111,7 @@ v2 changes after colleague review (23.04.2026):
 
 # Agenda – 3 blocks, 2 breaks
 
-1. **What counts as AI, and what counts as bias** (~30 min)
+1. **AI types, and where bias enters each** (~30 min)
 2. **FAIR-SW-Bench: one research group's attempt to measure it** (~30 min)
 3. **Your projects: clusters, critique, next steps** (~55 min, incl. ~45 min student presentations)
 
@@ -179,15 +190,13 @@ Practical workflow + Q&A interleaved.
 
 ---
 
-# Which type is your project?
+# Every project in this room: Type 3
 
-| AI Type | Project domains |
-|---------|-----------------|
-| **Predictive ML** | Financial sentiment models; CV screening classifiers |
-| **Generative LLMs** | Mental health, insurance, moral judgement, gender bias in LLM outputs (multiple projects) |
-| **TBD / hybrid** | AI literacy / self-determination angle |
+Even where the domain sounds like classification – **financial sentiment** scoring, **CV screening** – your measurement target is an LLM output.
 
-**Different AI type = different bias sources = different measurement methods.**
+**Different AI types have different bias sources – but all your projects work with Type 3, so the rest of this session focuses on LLM-specific methods.**
+
+<small>*Meta / AI-literacy project is a partial exception – see refocus slide.*</small>
 
 ---
 
@@ -411,7 +420,7 @@ Practical workflow for the next 6 weeks
 
 ![width:95%](https://raw.githubusercontent.com/chsteiner/klagenfurt-lv-gender-diversity-and-ai/main/slides/img/fig-workflow-timeline.png)
 
-**Prototype = works end-to-end, even if minimal.** 3 prompts, 1 LLM, 1 bias dimension is fine for 03.06.
+**Prototype = works end-to-end, even if minimal.** 3 prompts × 3 variants × N ≥ 10 runs (≈90 calls), 1 LLM, 1 bias dimension is fine for 03.06.
 
 ---
 
@@ -427,7 +436,7 @@ Curated context = reproducible experiments: same task, rubric, format – only t
 
 | Step | Example (hiring screener) |
 |------|---------------------------|
-| **Context** | "You are a hiring screener. Role: Senior Python Developer." |
+| **Context** | "Scenario: Senior Python Developer role at mid-sized company. Team values: backend experience, API design, collaboration." |
 | **Task** | "Evaluate the following CV for fit." |
 | **Constraints** | "Ignore name, photo, age. Assess only skills and experience." |
 | **Format** | "Score 1–10, 3 strengths, 3 concerns. Max 100 words." |
@@ -442,7 +451,7 @@ Curated context = reproducible experiments: same task, rubric, format – only t
 2. **Stereotypes:** are groups made invisible or shown stereotypically?
 3. **Tone:** does the text feel condescending?
 
-**Also useful for scoring your own bias dimensions.**
+**Quick-look heuristic – maps onto three of the five dimensions shown earlier (Stereotyping, Problem Framing, Paternalistic Language).**
 
 **Anonymization rule for prompts** (if your scenarios contain personal data): could someone identify who this is? Then anonymise further. Most student projects use synthetic scenarios – less critical, but keep the habit.
 
@@ -464,7 +473,7 @@ Curated context = reproducible experiments: same task, rubric, format – only t
 
 Zipped `.md` files on Moodle, containing:
 
-1. Research question + domain + AI type
+1. Research question + domain + target LLM(s)
 2. Bias dimension(s) + why
 3. Prompt set: 5–10 × Base / Neutral / Diversity-Aware
 4. Scoring rubric: what do 0, 5, 10 mean concretely?
@@ -482,7 +491,6 @@ And what to do next
 
 # What you can do now
 
-- **Classify** which AI type your project is really about
 - **Choose** at least one bias dimension that fits your domain – or define your own
 - **Design** prompts with a clear variant strategy (contrast / neutralize / mitigate)
 - **Score** responses with a concrete rubric (count, not vibes)
@@ -493,7 +501,7 @@ And what to do next
 
 # Your next action – before EH 4 (11.05.)
 
-**Draft 5 prompts in your chosen domain, in all three variants. Run them once against `llama3` via Ollama (or a web interface if your laptop cannot run local models). Bring what surprised you to EH 4.**
+**Draft 5 prompts in your chosen domain, in all three variants. Run them once against `llama3` via Ollama (web interface if local doesn't work). This is qualitative probing – N ≥ 10 comes with the prototype. Bring what surprised you to EH 4.**
 
 Share blockers in the Moodle forum or by email.
 
