@@ -4,4 +4,5 @@
 - [Timeline & Milestones](zeitplan.md)
 - [Theory Overview](theorie.md)
 - [FAIR-SW-Bench](fair-sw-bench.md)
+- [Measuring Bias — Tutorial](measuring-bias.md)
 - [Resources & Tools](ressourcen.md)
