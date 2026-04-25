@@ -12,7 +12,7 @@
 
 **What you submit:**
 - GitHub repository with working code and documentation
-- At least 10 custom prompts, 1+ bias dimension, 1 LLM
+- At least 10 custom prompts, 1+ bias dimension, 1+ LLM
 - Final presentation on 24.06. (10 min + 5 min discussion)
 
 **What we don't prescribe:** Which domain, which bias dimensions, which technical approach – that's your call. Creativity is explicitly encouraged.
@@ -53,7 +53,7 @@ This means: Good intentions don't guarantee good results. Whether and how this e
 
 1. **At least 10 custom test scenarios/prompts** that capture potential bias situations
 2. **At least 1 bias dimension** that you systematically evaluate (more dimensions and intersections between them are even better)
-3. **At least 1 LLM** that you query and analyze
+3. **At least 1 LLM** (more is fine — see *Model Comparison* below) that you query and analyze
 4. **Documented methodology**: How do you measure bias? Why this way and not another?
 5. **Working code** with documentation
 
